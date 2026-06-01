@@ -1,0 +1,2851 @@
+[
+  {
+    "input": {
+      "customerName": "林嘉宁",
+      "travelers": 4,
+      "departureCity": "上海",
+      "departureDate": "2026-10-08",
+      "destinations": "冰岛雷克雅未克、南岸、瓦特纳冰川",
+      "days": 9,
+      "budget": 48000,
+      "hotelClass": "由预算自动匹配",
+      "preferences": "自然风光、摄影、极光",
+      "specialNeeds": "需中文司导和可退改酒店方案。"
+    },
+    "summary": {
+      "country": "冰岛",
+      "customerType": "摄影旅行",
+      "hotelTier": "舒适型（舒适精选：升级服务体验）",
+      "hotelRows": [
+        [
+          "冰岛-雷克雅未克",
+          "Center Hotels Midgardur（四星 / 舒适型 / ¥2,100每间夜）"
+        ],
+        [
+          "冰岛-雷克雅未克房型",
+          "高级双床房；2间；优先覆盖：雷克雅未克、黄金圈、蓝湖温泉"
+        ],
+        [
+          "冰岛-维克",
+          "Hotel Kria Vik（四星 / 舒适型 / ¥2,450每间夜）"
+        ],
+        [
+          "冰岛-维克房型",
+          "高级双床房；2间；优先覆盖：南岸、维克"
+        ],
+        [
+          "冰岛-霍芬",
+          "Fosshotel Glacier Lagoon（四星 / 舒适型 / ¥2,680每间夜）"
+        ],
+        [
+          "冰岛-霍芬房型",
+          "高级双床房；2间；优先覆盖：瓦特纳冰川、霍芬、钻石沙滩"
+        ]
+      ],
+      "dayCount": 9,
+      "firstDay": [
+        "Day1",
+        "2026年10月8日；上海 - 雷克雅未克。抵达冰岛后专车接机，司导陪同，入住Center Hotels Midgardur（雷克雅未克）。中文司导（专属服务）。根据酒店覆盖区域（雷克雅未克、黄金圈、蓝湖温泉），优先安排哈尔格林姆斯教堂、哈帕音乐厅、太阳航海者雕塑等周边景点初览与入住确认。优先匹配清晨、傍晚或夜间摄影窗口。"
+      ],
+      "lastDay": [
+        "Day9",
+        "2026年10月16日；霍芬 - 上海。上午从Fosshotel Glacier Lagoon退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排瓦特纳冰川、杰古沙龙冰河湖、钻石沙滩周边补充游览后专车送机返程。优先匹配清晨、傍晚或夜间摄影窗口。"
+      ],
+      "invitationTitle": "摄影旅行说明函",
+      "hotelLetter": {
+        "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Accommodation Confirmation for 林嘉宁 and Travel Party",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 林嘉宁 and accompanying travel party of 4 person(s).",
+          "The accommodation plan is matched from the internal hotel database for 冰岛 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+        ],
+        "table": [
+          [
+            "第1段酒店名称",
+            "Center Hotels Midgardur（冰岛 / 雷克雅未克）"
+          ],
+          [
+            "第1段酒店等级",
+            "四星 / 舒适型"
+          ],
+          [
+            "第1段入住日期",
+            "2026年10月8日"
+          ],
+          [
+            "第1段退房日期",
+            "2026年10月11日"
+          ],
+          [
+            "第1段房型",
+            "高级双床房"
+          ],
+          [
+            "第1段房间数量",
+            "2间 / 3晚"
+          ],
+          [
+            "第2段酒店名称",
+            "Hotel Kria Vik（冰岛 / 维克）"
+          ],
+          [
+            "第2段酒店等级",
+            "四星 / 舒适型"
+          ],
+          [
+            "第2段入住日期",
+            "2026年10月11日"
+          ],
+          [
+            "第2段退房日期",
+            "2026年10月14日"
+          ],
+          [
+            "第2段房型",
+            "高级双床房"
+          ],
+          [
+            "第2段房间数量",
+            "2间 / 3晚"
+          ],
+          [
+            "第3段酒店名称",
+            "Fosshotel Glacier Lagoon（冰岛 / 霍芬）"
+          ],
+          [
+            "第3段酒店等级",
+            "四星 / 舒适型"
+          ],
+          [
+            "第3段入住日期",
+            "2026年10月14日"
+          ],
+          [
+            "第3段退房日期",
+            "2026年10月16日"
+          ],
+          [
+            "第3段房型",
+            "高级双床房"
+          ],
+          [
+            "第3段房间数量",
+            "2间 / 2晚"
+          ]
+        ],
+        "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+      },
+      "invitationLetter": {
+        "title": "摄影旅行说明函",
+        "heading": "PHOTOGRAPHY TRAVEL STATEMENT",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Travel Support Letter for 冰岛",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that 林嘉宁 plans to visit 冰岛 for 摄影旅行.",
+          "The route is built from destination-specific resources and matched with the declared travel preferences and accommodation budget."
+        ],
+        "table": [
+          [
+            "Travel Purpose",
+            "摄影旅行"
+          ],
+          [
+            "Invited Party",
+            "林嘉宁"
+          ],
+          [
+            "Travel Party",
+            "4 person(s)"
+          ],
+          [
+            "Travel Period",
+            "2026年10月8日 - 2026年10月16日"
+          ],
+          [
+            "Destination",
+            "冰岛"
+          ],
+          [
+            "Contact",
+            "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+          ]
+        ],
+        "closing": "This letter is provided for visa support and travel documentation purposes."
+      },
+      "invitationText": "摄影旅行说明函\nPHOTOGRAPHY TRAVEL STATEMENT\nSubject: Travel Support Letter for 冰岛\nNordic Horizon International Travel Services confirms that 林嘉宁 plans to visit 冰岛 for 摄影旅行.\nThe route is built from destination-specific resources and matched with the declared travel preferences and accommodation budget.",
+      "fullText": "客户需求\n客户姓名: 林嘉宁\n出行人数: 4人\n出发城市: 上海\n目的地输入: 冰岛雷克雅未克、南岸、瓦特纳冰川\n识别目的地: 冰岛\n客户类型: 摄影旅行\n出行日期: 2026年10月8日 至 2026年10月16日\n人均预算: ¥48,000\n酒店等级: 舒适型\n方案档位: 舒适精选 — 专属服务，深度体验\n交通方式: 全程专属车辆\n导游服务: 中文司导（专属服务）\n特殊需求: 需中文司导和可退改酒店方案。\n- 生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。\n\n目的地分析\n冰岛: 入境/核心城市：雷克雅未克；知识库路线：雷克雅未克 -> 黄金圈 -> 蓝湖温泉 -> 南岸 -> 维克 -> 瓦特纳冰川 -> 霍芬 -> 钻石沙滩 -> 斯奈山半岛；本次仅从冰岛知识库读取景点。\n- 系统按国家隔离景点知识库：本次行程仅调用识别目的地（冰岛）对应的景点库，不跨国家混用景点资源。\n\n酒店匹配\n冰岛-雷克雅未克: Center Hotels Midgardur（四星 / 舒适型 / ¥2,100每间夜）\n冰岛-雷克雅未克房型: 高级双床房；2间；优先覆盖：雷克雅未克、黄金圈、蓝湖温泉\n冰岛-维克: Hotel Kria Vik（四星 / 舒适型 / ¥2,450每间夜）\n冰岛-维克房型: 高级双床房；2间；优先覆盖：南岸、维克\n冰岛-霍芬: Fosshotel Glacier Lagoon（四星 / 舒适型 / ¥2,680每间夜）\n冰岛-霍芬房型: 高级双床房；2间；优先覆盖：瓦特纳冰川、霍芬、钻石沙滩\n- 预算分级：¥48,000 / 人 -> 舒适型（舒适精选：升级服务体验）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。\n- 本次住宿晚数分配：Center Hotels Midgardur 3晚（2026年10月8日入住，2026年10月11日退房）；Hotel Kria Vik 3晚（2026年10月11日入住，2026年10月14日退房）；Fosshotel Glacier Lagoon 2晚（2026年10月14日入住，2026年10月16日退房）。\n\n供应商匹配\n冰岛酒店供应商: Reykjavik Nordic Hotels Desk；酒店协议价、房态确认、团队房控；hotel.iceland@nordichorizon.cn\n冰岛地接供应商: Iceland Premium Ground Handling；中文司导、车辆、地接统筹；dmc.iceland@nordichorizon.cn\n冰岛活动供应商: Arctic Adventure Operations Photo Desk；日出日落、极光、旅拍窗口；photo.iceland@nordichorizon.cn\n- 供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。\n\n景点规划 / 行程安排\nDay1: 2026年10月8日；上海 - 雷克雅未克。抵达冰岛后专车接机，司导陪同，入住Center Hotels Midgardur（雷克雅未克）。中文司导（专属服务）。根据酒店覆盖区域（雷克雅未克、黄金圈、蓝湖温泉），优先安排哈尔格林姆斯教堂、哈帕音乐厅、太阳航海者雕塑等周边景点初览与入住确认。优先匹配清晨、傍晚或夜间摄影窗口。\nDay2: 2026年10月9日；入住地：雷克雅未克（Center Hotels Midgardur）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛黄金圈周边行程，核心安排：辛格维利尔国家公园。业务说明：世界遗产与板块裂谷景观，适合签证行程中的自然参访。【特色体验：蓝湖温泉标准体验（含门票+硅泥面膜+饮品）】优先匹配清晨、傍晚或夜间摄影窗口。\nDay3: 2026年10月10日；入住地：雷克雅未克（Center Hotels Midgardur）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛黄金圈周边行程，核心安排：黄金瀑布。业务说明：冰岛代表性瀑布，适合摄影窗口安排。优先匹配清晨、傍晚或夜间摄影窗口。\nDay4: 2026年10月11日；入住地：维克（Hotel Kria Vik）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛南岸周边行程，核心安排：南岸瀑布群。业务说明：塞里雅兰瀑布、斯科加瀑布等南岸核心资源。优先匹配清晨、傍晚或夜间摄影窗口。\nDay5: 2026年10月12日；入住地：维克（Hotel Kria Vik）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛维克周边行程，核心安排：维克黑沙滩。业务说明：高辨识度摄影点，需提示浪涌安全。优先匹配清晨、傍晚或夜间摄影窗口。\nDay6: 2026年10月13日；入住地：维克（Hotel Kria Vik）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛瓦特纳冰川周边行程，核心安排：杰古沙龙冰河湖。业务说明：适合冰川湖观景、摄影与签证行程亮点。优先匹配清晨、傍晚或夜间摄影窗口。\nDay7: 2026年10月14日；入住地：霍芬（Fosshotel Glacier Lagoon）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛瓦特纳冰川周边行程，核心安排：瓦特纳冰川。业务说明：冰川徒步、蓝冰洞等活动的核心区域。优先匹配清晨、傍晚或夜间摄影窗口。\nDay8: 2026年10月15日；入住地：霍芬（Fosshotel Glacier Lagoon）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛钻石沙滩周边行程，核心安排：钻石沙滩。业务说明：与冰河湖组合安排，适合日出或傍晚。优先匹配清晨、傍晚或夜间摄影窗口。\nDay9: 2026年10月16日；霍芬 - 上海。上午从Fosshotel Glacier Lagoon退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排瓦特纳冰川、杰古沙龙冰河湖、钻石沙滩周边补充游览后专车送机返程。优先匹配清晨、傍晚或夜间摄影窗口。\n- 本次行程严格按 9 天生成，输出范围 Day1-Day9。\n- 景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。\n\n费用计算\n住宿费用: ¥38,020\n交通费用: ¥26,910\n活动费用: ¥31,680\n服务费: ¥9,661\n签证辅助费: ¥2,400\n方案总价（整团）: ¥108,671\n人均参考价: ¥27,168\n- 计算规则：人数 4 人，天数 9 天，酒店等级 舒适型（舒适精选），客户类型 摄影旅行。\n- 费用包含：酒店含早 + 每日推荐餐厅；热门景点门票全含；全程专属车辆；中文司导（专属服务）。\n- 特色项目：含1项特色体验。\n- 报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。\n\n签证材料清单\n身份文件: 护照原件、身份证复印件、户口本复印件、婚姻状况证明。\n职业证明: 在职证明、营业执照副本或收入来源说明。\n资产证明: 近6个月银行流水、余额证明、房产或车辆等辅助资产材料。\n旅行证明: 往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。\n补充材料: 需中文司导和可退改酒店方案。\n- 材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。\n\n酒店确认函\nHOTEL RESERVATION CONFIRMATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Accommodation Confirmation for 林嘉宁 and Travel Party\nNordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 林嘉宁 and accompanying travel party of 4 person(s).\nThe accommodation plan is matched from the internal hotel database for 冰岛 and selected according to hotel location, room quantity, travel purpose and itinerary sequence.\n第1段酒店名称: Center Hotels Midgardur（冰岛 / 雷克雅未克）\n第1段酒店等级: 四星 / 舒适型\n第1段入住日期: 2026年10月8日\n第1段退房日期: 2026年10月11日\n第1段房型: 高级双床房\n第1段房间数量: 2间 / 3晚\n第2段酒店名称: Hotel Kria Vik（冰岛 / 维克）\n第2段酒店等级: 四星 / 舒适型\n第2段入住日期: 2026年10月11日\n第2段退房日期: 2026年10月14日\n第2段房型: 高级双床房\n第2段房间数量: 2间 / 3晚\n第3段酒店名称: Fosshotel Glacier Lagoon（冰岛 / 霍芬）\n第3段酒店等级: 四星 / 舒适型\n第3段入住日期: 2026年10月14日\n第3段退房日期: 2026年10月16日\n第3段房型: 高级双床房\n第3段房间数量: 2间 / 2晚\nThis hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed.\n\n摄影旅行说明函\nPHOTOGRAPHY TRAVEL STATEMENT\nTo: Visa Officer / Consular Section\nSubject: Travel Support Letter for 冰岛\nNordic Horizon International Travel Services confirms that 林嘉宁 plans to visit 冰岛 for 摄影旅行.\nThe route is built from destination-specific resources and matched with the declared travel preferences and accommodation budget.\nTravel Purpose: 摄影旅行\nInvited Party: 林嘉宁\nTravel Party: 4 person(s)\nTravel Period: 2026年10月8日 - 2026年10月16日\nDestination: 冰岛\nContact: +86 21 6188 4572 / visa.docs@nordichorizon.cn\nThis letter is provided for visa support and travel documentation purposes."
+    },
+    "checks": {
+      "dayCountMatches": true,
+      "denmarkNoIcelandLeak": true,
+      "finlandNoIcelandLeak": true,
+      "icelandNoFinlandLeak": true,
+      "businessInviteOnlyWhenBusiness": true
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "客户需求",
+        "icon": null,
+        "rows": [
+          [
+            "客户姓名",
+            "林嘉宁"
+          ],
+          [
+            "出行人数",
+            "4人"
+          ],
+          [
+            "出发城市",
+            "上海"
+          ],
+          [
+            "目的地输入",
+            "冰岛雷克雅未克、南岸、瓦特纳冰川"
+          ],
+          [
+            "识别目的地",
+            "冰岛"
+          ],
+          [
+            "客户类型",
+            "摄影旅行"
+          ],
+          [
+            "出行日期",
+            "2026年10月8日 至 2026年10月16日"
+          ],
+          [
+            "人均预算",
+            "¥48,000"
+          ],
+          [
+            "酒店等级",
+            "舒适型"
+          ],
+          [
+            "方案档位",
+            "舒适精选 — 专属服务，深度体验"
+          ],
+          [
+            "交通方式",
+            "全程专属车辆"
+          ],
+          [
+            "导游服务",
+            "中文司导（专属服务）"
+          ],
+          [
+            "特殊需求",
+            "需中文司导和可退改酒店方案。"
+          ]
+        ],
+        "clauses": [
+          "生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。"
+        ]
+      },
+      {
+        "id": "analysis",
+        "title": "目的地分析",
+        "icon": null,
+        "rows": [
+          [
+            "冰岛",
+            "入境/核心城市：雷克雅未克；知识库路线：雷克雅未克 -> 黄金圈 -> 蓝湖温泉 -> 南岸 -> 维克 -> 瓦特纳冰川 -> 霍芬 -> 钻石沙滩 -> 斯奈山半岛；本次仅从冰岛知识库读取景点。"
+          ]
+        ],
+        "clauses": [
+          "系统按国家隔离景点知识库：本次行程仅调用识别目的地（冰岛）对应的景点库，不跨国家混用景点资源。"
+        ]
+      },
+      {
+        "id": "hotelMatch",
+        "title": "酒店匹配",
+        "icon": null,
+        "rows": [
+          [
+            "冰岛-雷克雅未克",
+            "Center Hotels Midgardur（四星 / 舒适型 / ¥2,100每间夜）"
+          ],
+          [
+            "冰岛-雷克雅未克房型",
+            "高级双床房；2间；优先覆盖：雷克雅未克、黄金圈、蓝湖温泉"
+          ],
+          [
+            "冰岛-维克",
+            "Hotel Kria Vik（四星 / 舒适型 / ¥2,450每间夜）"
+          ],
+          [
+            "冰岛-维克房型",
+            "高级双床房；2间；优先覆盖：南岸、维克"
+          ],
+          [
+            "冰岛-霍芬",
+            "Fosshotel Glacier Lagoon（四星 / 舒适型 / ¥2,680每间夜）"
+          ],
+          [
+            "冰岛-霍芬房型",
+            "高级双床房；2间；优先覆盖：瓦特纳冰川、霍芬、钻石沙滩"
+          ]
+        ],
+        "clauses": [
+          "预算分级：¥48,000 / 人 -> 舒适型（舒适精选：升级服务体验）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。",
+          "本次住宿晚数分配：Center Hotels Midgardur 3晚（2026年10月8日入住，2026年10月11日退房）；Hotel Kria Vik 3晚（2026年10月11日入住，2026年10月14日退房）；Fosshotel Glacier Lagoon 2晚（2026年10月14日入住，2026年10月16日退房）。"
+        ]
+      },
+      {
+        "id": "suppliers",
+        "title": "供应商匹配",
+        "icon": null,
+        "rows": [
+          [
+            "冰岛酒店供应商",
+            "Reykjavik Nordic Hotels Desk；酒店协议价、房态确认、团队房控；hotel.iceland@nordichorizon.cn"
+          ],
+          [
+            "冰岛地接供应商",
+            "Iceland Premium Ground Handling；中文司导、车辆、地接统筹；dmc.iceland@nordichorizon.cn"
+          ],
+          [
+            "冰岛活动供应商",
+            "Arctic Adventure Operations Photo Desk；日出日落、极光、旅拍窗口；photo.iceland@nordichorizon.cn"
+          ]
+        ],
+        "clauses": [
+          "供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。"
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "景点规划 / 行程安排",
+        "icon": null,
+        "rows": [
+          [
+            "Day1",
+            "2026年10月8日；上海 - 雷克雅未克。抵达冰岛后专车接机，司导陪同，入住Center Hotels Midgardur（雷克雅未克）。中文司导（专属服务）。根据酒店覆盖区域（雷克雅未克、黄金圈、蓝湖温泉），优先安排哈尔格林姆斯教堂、哈帕音乐厅、太阳航海者雕塑等周边景点初览与入住确认。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day2",
+            "2026年10月9日；入住地：雷克雅未克（Center Hotels Midgardur）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛黄金圈周边行程，核心安排：辛格维利尔国家公园。业务说明：世界遗产与板块裂谷景观，适合签证行程中的自然参访。【特色体验：蓝湖温泉标准体验（含门票+硅泥面膜+饮品）】优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day3",
+            "2026年10月10日；入住地：雷克雅未克（Center Hotels Midgardur）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛黄金圈周边行程，核心安排：黄金瀑布。业务说明：冰岛代表性瀑布，适合摄影窗口安排。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day4",
+            "2026年10月11日；入住地：维克（Hotel Kria Vik）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛南岸周边行程，核心安排：南岸瀑布群。业务说明：塞里雅兰瀑布、斯科加瀑布等南岸核心资源。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day5",
+            "2026年10月12日；入住地：维克（Hotel Kria Vik）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛维克周边行程，核心安排：维克黑沙滩。业务说明：高辨识度摄影点，需提示浪涌安全。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day6",
+            "2026年10月13日；入住地：维克（Hotel Kria Vik）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛瓦特纳冰川周边行程，核心安排：杰古沙龙冰河湖。业务说明：适合冰川湖观景、摄影与签证行程亮点。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day7",
+            "2026年10月14日；入住地：霍芬（Fosshotel Glacier Lagoon）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛瓦特纳冰川周边行程，核心安排：瓦特纳冰川。业务说明：冰川徒步、蓝冰洞等活动的核心区域。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day8",
+            "2026年10月15日；入住地：霍芬（Fosshotel Glacier Lagoon）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排冰岛钻石沙滩周边行程，核心安排：钻石沙滩。业务说明：与冰河湖组合安排，适合日出或傍晚。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ],
+          [
+            "Day9",
+            "2026年10月16日；霍芬 - 上海。上午从Fosshotel Glacier Lagoon退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排瓦特纳冰川、杰古沙龙冰河湖、钻石沙滩周边补充游览后专车送机返程。优先匹配清晨、傍晚或夜间摄影窗口。"
+          ]
+        ],
+        "clauses": [
+          "本次行程严格按 9 天生成，输出范围 Day1-Day9。",
+          "景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。"
+        ]
+      },
+      {
+        "id": "costs",
+        "title": "费用计算",
+        "icon": null,
+        "rows": [
+          [
+            "住宿费用",
+            "¥38,020"
+          ],
+          [
+            "交通费用",
+            "¥26,910"
+          ],
+          [
+            "活动费用",
+            "¥31,680"
+          ],
+          [
+            "服务费",
+            "¥9,661"
+          ],
+          [
+            "签证辅助费",
+            "¥2,400"
+          ],
+          [
+            "方案总价（整团）",
+            "¥108,671"
+          ],
+          [
+            "人均参考价",
+            "¥27,168"
+          ]
+        ],
+        "clauses": [
+          "计算规则：人数 4 人，天数 9 天，酒店等级 舒适型（舒适精选），客户类型 摄影旅行。",
+          "费用包含：酒店含早 + 每日推荐餐厅；热门景点门票全含；全程专属车辆；中文司导（专属服务）。",
+          "特色项目：含1项特色体验。",
+          "报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。"
+        ]
+      },
+      {
+        "id": "visa",
+        "title": "签证材料清单",
+        "icon": null,
+        "rows": [
+          [
+            "身份文件",
+            "护照原件、身份证复印件、户口本复印件、婚姻状况证明。"
+          ],
+          [
+            "职业证明",
+            "在职证明、营业执照副本或收入来源说明。"
+          ],
+          [
+            "资产证明",
+            "近6个月银行流水、余额证明、房产或车辆等辅助资产材料。"
+          ],
+          [
+            "旅行证明",
+            "往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。"
+          ],
+          [
+            "补充材料",
+            "需中文司导和可退改酒店方案。"
+          ]
+        ],
+        "clauses": [
+          "材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。"
+        ]
+      },
+      {
+        "id": "hotel",
+        "title": "酒店确认函",
+        "icon": null,
+        "letter": {
+          "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Accommodation Confirmation for 林嘉宁 and Travel Party",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 林嘉宁 and accompanying travel party of 4 person(s).",
+            "The accommodation plan is matched from the internal hotel database for 冰岛 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+          ],
+          "table": [
+            [
+              "第1段酒店名称",
+              "Center Hotels Midgardur（冰岛 / 雷克雅未克）"
+            ],
+            [
+              "第1段酒店等级",
+              "四星 / 舒适型"
+            ],
+            [
+              "第1段入住日期",
+              "2026年10月8日"
+            ],
+            [
+              "第1段退房日期",
+              "2026年10月11日"
+            ],
+            [
+              "第1段房型",
+              "高级双床房"
+            ],
+            [
+              "第1段房间数量",
+              "2间 / 3晚"
+            ],
+            [
+              "第2段酒店名称",
+              "Hotel Kria Vik（冰岛 / 维克）"
+            ],
+            [
+              "第2段酒店等级",
+              "四星 / 舒适型"
+            ],
+            [
+              "第2段入住日期",
+              "2026年10月11日"
+            ],
+            [
+              "第2段退房日期",
+              "2026年10月14日"
+            ],
+            [
+              "第2段房型",
+              "高级双床房"
+            ],
+            [
+              "第2段房间数量",
+              "2间 / 3晚"
+            ],
+            [
+              "第3段酒店名称",
+              "Fosshotel Glacier Lagoon（冰岛 / 霍芬）"
+            ],
+            [
+              "第3段酒店等级",
+              "四星 / 舒适型"
+            ],
+            [
+              "第3段入住日期",
+              "2026年10月14日"
+            ],
+            [
+              "第3段退房日期",
+              "2026年10月16日"
+            ],
+            [
+              "第3段房型",
+              "高级双床房"
+            ],
+            [
+              "第3段房间数量",
+              "2间 / 2晚"
+            ]
+          ],
+          "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+        }
+      },
+      {
+        "id": "invitation",
+        "title": "摄影旅行说明函",
+        "icon": null,
+        "letter": {
+          "title": "摄影旅行说明函",
+          "heading": "PHOTOGRAPHY TRAVEL STATEMENT",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Travel Support Letter for 冰岛",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that 林嘉宁 plans to visit 冰岛 for 摄影旅行.",
+            "The route is built from destination-specific resources and matched with the declared travel preferences and accommodation budget."
+          ],
+          "table": [
+            [
+              "Travel Purpose",
+              "摄影旅行"
+            ],
+            [
+              "Invited Party",
+              "林嘉宁"
+            ],
+            [
+              "Travel Party",
+              "4 person(s)"
+            ],
+            [
+              "Travel Period",
+              "2026年10月8日 - 2026年10月16日"
+            ],
+            [
+              "Destination",
+              "冰岛"
+            ],
+            [
+              "Contact",
+              "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+            ]
+          ],
+          "closing": "This letter is provided for visa support and travel documentation purposes."
+        }
+      }
+    ]
+  },
+  {
+    "input": {
+      "customerName": "周亦辰",
+      "travelers": 3,
+      "departureCity": "北京",
+      "departureDate": "2026-12-01",
+      "destinations": "芬兰赫尔辛基、罗瓦涅米、萨利色尔卡",
+      "days": 7,
+      "budget": 22000,
+      "hotelClass": "由预算自动匹配",
+      "preferences": "亲子、轻松、极光",
+      "specialNeeds": "同行有儿童，减少高强度徒步。"
+    },
+    "summary": {
+      "country": "芬兰",
+      "customerType": "亲子出游",
+      "hotelTier": "经济型（经济优选：标准化行程服务）",
+      "hotelRows": [
+        [
+          "芬兰-赫尔辛基",
+          "Omena Hotel Helsinki City Centre（三星 / 经济型 / ¥980每间夜）"
+        ],
+        [
+          "芬兰-赫尔辛基房型",
+          "家庭房；2间；优先覆盖：赫尔辛基、波尔沃"
+        ],
+        [
+          "芬兰-罗瓦涅米",
+          "Santa's Hotel Rudolf（三星 / 经济型 / ¥1,180每间夜）"
+        ],
+        [
+          "芬兰-罗瓦涅米房型",
+          "家庭房；2间；优先覆盖：罗瓦涅米、圣诞老人村"
+        ],
+        [
+          "芬兰-萨利色尔卡",
+          "Holiday Club Saariselka（三星 / 经济型 / ¥1,280每间夜）"
+        ],
+        [
+          "芬兰-萨利色尔卡房型",
+          "家庭房；2间；优先覆盖：萨利色尔卡、极光观测区、伊纳里"
+        ]
+      ],
+      "dayCount": 7,
+      "firstDay": [
+        "Day1",
+        "2026年12月1日；北京 - 赫尔辛基。抵达芬兰后乘坐机场巴士/拼团接机，入住Omena Hotel Helsinki City Centre（赫尔辛基）。中文导游（拼团共享）。根据酒店覆盖区域（赫尔辛基、波尔沃），优先安排岩石教堂、赫尔辛基白教堂、芬兰堡等周边景点初览与入住确认。控制车程和步行强度，保留亲子休息时间。"
+      ],
+      "lastDay": [
+        "Day7",
+        "2026年12月7日；萨利色尔卡 - 北京。上午从Holiday Club Saariselka退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排乌尔霍凯科宁国家公园、极光观测区、玻璃屋酒店周边补充游览后拼团送机返程。控制车程和步行强度，保留亲子休息时间。"
+      ],
+      "invitationTitle": "旅行邀请函",
+      "hotelLetter": {
+        "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Accommodation Confirmation for 周亦辰 and Travel Party",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 周亦辰 and accompanying travel party of 3 person(s).",
+          "The accommodation plan is matched from the internal hotel database for 芬兰 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+        ],
+        "table": [
+          [
+            "第1段酒店名称",
+            "Omena Hotel Helsinki City Centre（芬兰 / 赫尔辛基）"
+          ],
+          [
+            "第1段酒店等级",
+            "三星 / 经济型"
+          ],
+          [
+            "第1段入住日期",
+            "2026年12月1日"
+          ],
+          [
+            "第1段退房日期",
+            "2026年12月4日"
+          ],
+          [
+            "第1段房型",
+            "家庭房"
+          ],
+          [
+            "第1段房间数量",
+            "2间 / 3晚"
+          ],
+          [
+            "第2段酒店名称",
+            "Santa's Hotel Rudolf（芬兰 / 罗瓦涅米）"
+          ],
+          [
+            "第2段酒店等级",
+            "三星 / 经济型"
+          ],
+          [
+            "第2段入住日期",
+            "2026年12月4日"
+          ],
+          [
+            "第2段退房日期",
+            "2026年12月6日"
+          ],
+          [
+            "第2段房型",
+            "家庭房"
+          ],
+          [
+            "第2段房间数量",
+            "2间 / 2晚"
+          ],
+          [
+            "第3段酒店名称",
+            "Holiday Club Saariselka（芬兰 / 萨利色尔卡）"
+          ],
+          [
+            "第3段酒店等级",
+            "三星 / 经济型"
+          ],
+          [
+            "第3段入住日期",
+            "2026年12月6日"
+          ],
+          [
+            "第3段退房日期",
+            "2026年12月7日"
+          ],
+          [
+            "第3段房型",
+            "家庭房"
+          ],
+          [
+            "第3段房间数量",
+            "2间 / 1晚"
+          ]
+        ],
+        "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+      },
+      "invitationLetter": {
+        "title": "旅行邀请函",
+        "heading": "FAMILY TRAVEL INVITATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Family Travel Support Letter for 芬兰",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that 周亦辰 and family members plan to visit 芬兰 for leisure travel.",
+          "The itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources."
+        ],
+        "table": [
+          [
+            "Travel Purpose",
+            "Family leisure travel and destination experience."
+          ],
+          [
+            "Invited Party",
+            "周亦辰"
+          ],
+          [
+            "Travel Party",
+            "3 person(s)"
+          ],
+          [
+            "Travel Period",
+            "2026年12月1日 - 2026年12月7日"
+          ],
+          [
+            "Destination",
+            "芬兰"
+          ],
+          [
+            "Contact",
+            "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+          ]
+        ],
+        "closing": "This letter is issued for visa documentation support and does not constitute financial sponsorship."
+      },
+      "invitationText": "旅行邀请函\nFAMILY TRAVEL INVITATION LETTER\nSubject: Family Travel Support Letter for 芬兰\nNordic Horizon International Travel Services confirms that 周亦辰 and family members plan to visit 芬兰 for leisure travel.\nThe itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources.",
+      "fullText": "客户需求\n客户姓名: 周亦辰\n出行人数: 3人\n出发城市: 北京\n目的地输入: 芬兰赫尔辛基、罗瓦涅米、萨利色尔卡\n识别目的地: 芬兰\n客户类型: 亲子出游\n出行日期: 2026年12月1日 至 2026年12月7日\n人均预算: ¥22,000\n酒店等级: 经济型\n方案档位: 经济优选 — 高性价比，走遍北欧\n交通方式: 拼团巴士 / 公共交通接驳\n导游服务: 中文导游（拼团共享）\n特殊需求: 同行有儿童，减少高强度徒步。\n- 生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。\n\n目的地分析\n芬兰: 入境/核心城市：赫尔辛基；知识库路线：赫尔辛基 -> 波尔沃 -> 罗瓦涅米 -> 萨利色尔卡 -> 伊纳里 -> 拉普兰；本次仅从芬兰知识库读取景点。\n- 系统按国家隔离景点知识库：本次行程仅调用识别目的地（芬兰）对应的景点库，不跨国家混用景点资源。\n\n酒店匹配\n芬兰-赫尔辛基: Omena Hotel Helsinki City Centre（三星 / 经济型 / ¥980每间夜）\n芬兰-赫尔辛基房型: 家庭房；2间；优先覆盖：赫尔辛基、波尔沃\n芬兰-罗瓦涅米: Santa's Hotel Rudolf（三星 / 经济型 / ¥1,180每间夜）\n芬兰-罗瓦涅米房型: 家庭房；2间；优先覆盖：罗瓦涅米、圣诞老人村\n芬兰-萨利色尔卡: Holiday Club Saariselka（三星 / 经济型 / ¥1,280每间夜）\n芬兰-萨利色尔卡房型: 家庭房；2间；优先覆盖：萨利色尔卡、极光观测区、伊纳里\n- 预算分级：¥22,000 / 人 -> 经济型（经济优选：标准化行程服务）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。\n- 本次住宿晚数分配：Omena Hotel Helsinki City Centre 3晚（2026年12月1日入住，2026年12月4日退房）；Santa's Hotel Rudolf 2晚（2026年12月4日入住，2026年12月6日退房）；Holiday Club Saariselka 1晚（2026年12月6日入住，2026年12月7日退房）。\n\n供应商匹配\n芬兰酒店供应商: Helsinki Hotel Contracting Desk；酒店协议价、房态确认、团队房控；hotel.finland@nordichorizon.cn\n芬兰地接供应商: Lapland Destination Services Family Desk；低强度节奏、儿童座椅、家庭服务；family.finland@nordichorizon.cn\n芬兰活动供应商: Aurora Activity Network；门票、向导和特色活动预订；activity.finland@nordichorizon.cn\n- 供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。\n\n景点规划 / 行程安排\nDay1: 2026年12月1日；北京 - 赫尔辛基。抵达芬兰后乘坐机场巴士/拼团接机，入住Omena Hotel Helsinki City Centre（赫尔辛基）。中文导游（拼团共享）。根据酒店覆盖区域（赫尔辛基、波尔沃），优先安排岩石教堂、赫尔辛基白教堂、芬兰堡等周边景点初览与入住确认。控制车程和步行强度，保留亲子休息时间。\nDay2: 2026年12月2日；入住地：赫尔辛基（Omena Hotel Helsinki City Centre）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰赫尔辛基周边行程，核心安排：岩石教堂。业务说明：独特岩体教堂建筑，适合城市文化参访和摄影。控制车程和步行强度，保留亲子休息时间。\nDay3: 2026年12月3日；入住地：赫尔辛基（Omena Hotel Helsinki City Centre）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰赫尔辛基周边行程，核心安排：赫尔辛基白教堂。业务说明：城市标志建筑与议会广场核心景观。控制车程和步行强度，保留亲子休息时间。\nDay4: 2026年12月4日；入住地：罗瓦涅米（Santa's Hotel Rudolf）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰罗瓦涅米周边行程，核心安排：北极圈地标。业务说明：亲子与摄影均适用的轻量节点。控制车程和步行强度，保留亲子休息时间。\nDay5: 2026年12月5日；入住地：罗瓦涅米（Santa's Hotel Rudolf）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰罗瓦涅米周边行程，核心安排：圣诞老人村。业务说明：亲子行程核心资源，适合签证行程展示。控制车程和步行强度，保留亲子休息时间。\nDay6: 2026年12月6日；入住地：萨利色尔卡（Holiday Club Saariselka）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰萨利色尔卡周边行程，核心安排：乌尔霍凯科宁国家公园。业务说明：拉普兰核心保护区，适合极光和雪地深度体验。控制车程和步行强度，保留亲子休息时间。\nDay7: 2026年12月7日；萨利色尔卡 - 北京。上午从Holiday Club Saariselka退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排乌尔霍凯科宁国家公园、极光观测区、玻璃屋酒店周边补充游览后拼团送机返程。控制车程和步行强度，保留亲子休息时间。\n- 本次行程严格按 7 天生成，输出范围 Day1-Day7。\n- 景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。\n\n费用计算\n住宿费用: ¥13,160\n交通费用: ¥13,608\n活动费用: ¥9,828\n服务费: ¥2,928\n签证辅助费: ¥1,800\n方案总价（整团）: ¥41,324\n人均参考价: ¥13,775\n- 计算规则：人数 3 人，天数 7 天，酒店等级 经济型（经济优选），客户类型 亲子出游。\n- 费用包含：酒店含早，午晚餐自理；基础景点外观，门票自理；拼团巴士 / 公共交通接驳；中文导游（拼团共享）。\n- 特色项目：不含特色项目。\n- 报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。\n\n签证材料清单\n身份文件: 护照原件、身份证复印件、户口本复印件、婚姻状况证明。\n职业证明: 在职证明、营业执照副本或收入来源说明。\n资产证明: 近6个月银行流水、余额证明、房产或车辆等辅助资产材料。\n旅行证明: 往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。\n补充材料: 同行有儿童，减少高强度徒步。\n- 材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。\n\n酒店确认函\nHOTEL RESERVATION CONFIRMATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Accommodation Confirmation for 周亦辰 and Travel Party\nNordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 周亦辰 and accompanying travel party of 3 person(s).\nThe accommodation plan is matched from the internal hotel database for 芬兰 and selected according to hotel location, room quantity, travel purpose and itinerary sequence.\n第1段酒店名称: Omena Hotel Helsinki City Centre（芬兰 / 赫尔辛基）\n第1段酒店等级: 三星 / 经济型\n第1段入住日期: 2026年12月1日\n第1段退房日期: 2026年12月4日\n第1段房型: 家庭房\n第1段房间数量: 2间 / 3晚\n第2段酒店名称: Santa's Hotel Rudolf（芬兰 / 罗瓦涅米）\n第2段酒店等级: 三星 / 经济型\n第2段入住日期: 2026年12月4日\n第2段退房日期: 2026年12月6日\n第2段房型: 家庭房\n第2段房间数量: 2间 / 2晚\n第3段酒店名称: Holiday Club Saariselka（芬兰 / 萨利色尔卡）\n第3段酒店等级: 三星 / 经济型\n第3段入住日期: 2026年12月6日\n第3段退房日期: 2026年12月7日\n第3段房型: 家庭房\n第3段房间数量: 2间 / 1晚\nThis hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed.\n\n旅行邀请函\nFAMILY TRAVEL INVITATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Family Travel Support Letter for 芬兰\nNordic Horizon International Travel Services confirms that 周亦辰 and family members plan to visit 芬兰 for leisure travel.\nThe itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources.\nTravel Purpose: Family leisure travel and destination experience.\nInvited Party: 周亦辰\nTravel Party: 3 person(s)\nTravel Period: 2026年12月1日 - 2026年12月7日\nDestination: 芬兰\nContact: +86 21 6188 4572 / visa.docs@nordichorizon.cn\nThis letter is issued for visa documentation support and does not constitute financial sponsorship."
+    },
+    "checks": {
+      "dayCountMatches": true,
+      "denmarkNoIcelandLeak": true,
+      "finlandNoIcelandLeak": true,
+      "icelandNoFinlandLeak": true,
+      "businessInviteOnlyWhenBusiness": true
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "客户需求",
+        "icon": null,
+        "rows": [
+          [
+            "客户姓名",
+            "周亦辰"
+          ],
+          [
+            "出行人数",
+            "3人"
+          ],
+          [
+            "出发城市",
+            "北京"
+          ],
+          [
+            "目的地输入",
+            "芬兰赫尔辛基、罗瓦涅米、萨利色尔卡"
+          ],
+          [
+            "识别目的地",
+            "芬兰"
+          ],
+          [
+            "客户类型",
+            "亲子出游"
+          ],
+          [
+            "出行日期",
+            "2026年12月1日 至 2026年12月7日"
+          ],
+          [
+            "人均预算",
+            "¥22,000"
+          ],
+          [
+            "酒店等级",
+            "经济型"
+          ],
+          [
+            "方案档位",
+            "经济优选 — 高性价比，走遍北欧"
+          ],
+          [
+            "交通方式",
+            "拼团巴士 / 公共交通接驳"
+          ],
+          [
+            "导游服务",
+            "中文导游（拼团共享）"
+          ],
+          [
+            "特殊需求",
+            "同行有儿童，减少高强度徒步。"
+          ]
+        ],
+        "clauses": [
+          "生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。"
+        ]
+      },
+      {
+        "id": "analysis",
+        "title": "目的地分析",
+        "icon": null,
+        "rows": [
+          [
+            "芬兰",
+            "入境/核心城市：赫尔辛基；知识库路线：赫尔辛基 -> 波尔沃 -> 罗瓦涅米 -> 萨利色尔卡 -> 伊纳里 -> 拉普兰；本次仅从芬兰知识库读取景点。"
+          ]
+        ],
+        "clauses": [
+          "系统按国家隔离景点知识库：本次行程仅调用识别目的地（芬兰）对应的景点库，不跨国家混用景点资源。"
+        ]
+      },
+      {
+        "id": "hotelMatch",
+        "title": "酒店匹配",
+        "icon": null,
+        "rows": [
+          [
+            "芬兰-赫尔辛基",
+            "Omena Hotel Helsinki City Centre（三星 / 经济型 / ¥980每间夜）"
+          ],
+          [
+            "芬兰-赫尔辛基房型",
+            "家庭房；2间；优先覆盖：赫尔辛基、波尔沃"
+          ],
+          [
+            "芬兰-罗瓦涅米",
+            "Santa's Hotel Rudolf（三星 / 经济型 / ¥1,180每间夜）"
+          ],
+          [
+            "芬兰-罗瓦涅米房型",
+            "家庭房；2间；优先覆盖：罗瓦涅米、圣诞老人村"
+          ],
+          [
+            "芬兰-萨利色尔卡",
+            "Holiday Club Saariselka（三星 / 经济型 / ¥1,280每间夜）"
+          ],
+          [
+            "芬兰-萨利色尔卡房型",
+            "家庭房；2间；优先覆盖：萨利色尔卡、极光观测区、伊纳里"
+          ]
+        ],
+        "clauses": [
+          "预算分级：¥22,000 / 人 -> 经济型（经济优选：标准化行程服务）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。",
+          "本次住宿晚数分配：Omena Hotel Helsinki City Centre 3晚（2026年12月1日入住，2026年12月4日退房）；Santa's Hotel Rudolf 2晚（2026年12月4日入住，2026年12月6日退房）；Holiday Club Saariselka 1晚（2026年12月6日入住，2026年12月7日退房）。"
+        ]
+      },
+      {
+        "id": "suppliers",
+        "title": "供应商匹配",
+        "icon": null,
+        "rows": [
+          [
+            "芬兰酒店供应商",
+            "Helsinki Hotel Contracting Desk；酒店协议价、房态确认、团队房控；hotel.finland@nordichorizon.cn"
+          ],
+          [
+            "芬兰地接供应商",
+            "Lapland Destination Services Family Desk；低强度节奏、儿童座椅、家庭服务；family.finland@nordichorizon.cn"
+          ],
+          [
+            "芬兰活动供应商",
+            "Aurora Activity Network；门票、向导和特色活动预订；activity.finland@nordichorizon.cn"
+          ]
+        ],
+        "clauses": [
+          "供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。"
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "景点规划 / 行程安排",
+        "icon": null,
+        "rows": [
+          [
+            "Day1",
+            "2026年12月1日；北京 - 赫尔辛基。抵达芬兰后乘坐机场巴士/拼团接机，入住Omena Hotel Helsinki City Centre（赫尔辛基）。中文导游（拼团共享）。根据酒店覆盖区域（赫尔辛基、波尔沃），优先安排岩石教堂、赫尔辛基白教堂、芬兰堡等周边景点初览与入住确认。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day2",
+            "2026年12月2日；入住地：赫尔辛基（Omena Hotel Helsinki City Centre）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰赫尔辛基周边行程，核心安排：岩石教堂。业务说明：独特岩体教堂建筑，适合城市文化参访和摄影。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day3",
+            "2026年12月3日；入住地：赫尔辛基（Omena Hotel Helsinki City Centre）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰赫尔辛基周边行程，核心安排：赫尔辛基白教堂。业务说明：城市标志建筑与议会广场核心景观。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day4",
+            "2026年12月4日；入住地：罗瓦涅米（Santa's Hotel Rudolf）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰罗瓦涅米周边行程，核心安排：北极圈地标。业务说明：亲子与摄影均适用的轻量节点。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day5",
+            "2026年12月5日；入住地：罗瓦涅米（Santa's Hotel Rudolf）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰罗瓦涅米周边行程，核心安排：圣诞老人村。业务说明：亲子行程核心资源，适合签证行程展示。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day6",
+            "2026年12月6日；入住地：萨利色尔卡（Holiday Club Saariselka）。乘坐旅游巴士/公共交通前往各景点。围绕酒店覆盖区域安排芬兰萨利色尔卡周边行程，核心安排：乌尔霍凯科宁国家公园。业务说明：拉普兰核心保护区，适合极光和雪地深度体验。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day7",
+            "2026年12月7日；萨利色尔卡 - 北京。上午从Holiday Club Saariselka退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排乌尔霍凯科宁国家公园、极光观测区、玻璃屋酒店周边补充游览后拼团送机返程。控制车程和步行强度，保留亲子休息时间。"
+          ]
+        ],
+        "clauses": [
+          "本次行程严格按 7 天生成，输出范围 Day1-Day7。",
+          "景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。"
+        ]
+      },
+      {
+        "id": "costs",
+        "title": "费用计算",
+        "icon": null,
+        "rows": [
+          [
+            "住宿费用",
+            "¥13,160"
+          ],
+          [
+            "交通费用",
+            "¥13,608"
+          ],
+          [
+            "活动费用",
+            "¥9,828"
+          ],
+          [
+            "服务费",
+            "¥2,928"
+          ],
+          [
+            "签证辅助费",
+            "¥1,800"
+          ],
+          [
+            "方案总价（整团）",
+            "¥41,324"
+          ],
+          [
+            "人均参考价",
+            "¥13,775"
+          ]
+        ],
+        "clauses": [
+          "计算规则：人数 3 人，天数 7 天，酒店等级 经济型（经济优选），客户类型 亲子出游。",
+          "费用包含：酒店含早，午晚餐自理；基础景点外观，门票自理；拼团巴士 / 公共交通接驳；中文导游（拼团共享）。",
+          "特色项目：不含特色项目。",
+          "报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。"
+        ]
+      },
+      {
+        "id": "visa",
+        "title": "签证材料清单",
+        "icon": null,
+        "rows": [
+          [
+            "身份文件",
+            "护照原件、身份证复印件、户口本复印件、婚姻状况证明。"
+          ],
+          [
+            "职业证明",
+            "在职证明、营业执照副本或收入来源说明。"
+          ],
+          [
+            "资产证明",
+            "近6个月银行流水、余额证明、房产或车辆等辅助资产材料。"
+          ],
+          [
+            "旅行证明",
+            "往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。"
+          ],
+          [
+            "补充材料",
+            "同行有儿童，减少高强度徒步。"
+          ]
+        ],
+        "clauses": [
+          "材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。"
+        ]
+      },
+      {
+        "id": "hotel",
+        "title": "酒店确认函",
+        "icon": null,
+        "letter": {
+          "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Accommodation Confirmation for 周亦辰 and Travel Party",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 周亦辰 and accompanying travel party of 3 person(s).",
+            "The accommodation plan is matched from the internal hotel database for 芬兰 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+          ],
+          "table": [
+            [
+              "第1段酒店名称",
+              "Omena Hotel Helsinki City Centre（芬兰 / 赫尔辛基）"
+            ],
+            [
+              "第1段酒店等级",
+              "三星 / 经济型"
+            ],
+            [
+              "第1段入住日期",
+              "2026年12月1日"
+            ],
+            [
+              "第1段退房日期",
+              "2026年12月4日"
+            ],
+            [
+              "第1段房型",
+              "家庭房"
+            ],
+            [
+              "第1段房间数量",
+              "2间 / 3晚"
+            ],
+            [
+              "第2段酒店名称",
+              "Santa's Hotel Rudolf（芬兰 / 罗瓦涅米）"
+            ],
+            [
+              "第2段酒店等级",
+              "三星 / 经济型"
+            ],
+            [
+              "第2段入住日期",
+              "2026年12月4日"
+            ],
+            [
+              "第2段退房日期",
+              "2026年12月6日"
+            ],
+            [
+              "第2段房型",
+              "家庭房"
+            ],
+            [
+              "第2段房间数量",
+              "2间 / 2晚"
+            ],
+            [
+              "第3段酒店名称",
+              "Holiday Club Saariselka（芬兰 / 萨利色尔卡）"
+            ],
+            [
+              "第3段酒店等级",
+              "三星 / 经济型"
+            ],
+            [
+              "第3段入住日期",
+              "2026年12月6日"
+            ],
+            [
+              "第3段退房日期",
+              "2026年12月7日"
+            ],
+            [
+              "第3段房型",
+              "家庭房"
+            ],
+            [
+              "第3段房间数量",
+              "2间 / 1晚"
+            ]
+          ],
+          "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+        }
+      },
+      {
+        "id": "invitation",
+        "title": "旅行邀请函",
+        "icon": null,
+        "letter": {
+          "title": "旅行邀请函",
+          "heading": "FAMILY TRAVEL INVITATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Family Travel Support Letter for 芬兰",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that 周亦辰 and family members plan to visit 芬兰 for leisure travel.",
+            "The itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources."
+          ],
+          "table": [
+            [
+              "Travel Purpose",
+              "Family leisure travel and destination experience."
+            ],
+            [
+              "Invited Party",
+              "周亦辰"
+            ],
+            [
+              "Travel Party",
+              "3 person(s)"
+            ],
+            [
+              "Travel Period",
+              "2026年12月1日 - 2026年12月7日"
+            ],
+            [
+              "Destination",
+              "芬兰"
+            ],
+            [
+              "Contact",
+              "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+            ]
+          ],
+          "closing": "This letter is issued for visa documentation support and does not constitute financial sponsorship."
+        }
+      }
+    ]
+  },
+  {
+    "input": {
+      "customerName": "王思岚",
+      "travelers": 2,
+      "departureCity": "广州",
+      "departureDate": "2026-09-18",
+      "destinations": "挪威奥斯陆、卑尔根、松恩峡湾、罗弗敦",
+      "days": 10,
+      "budget": 78000,
+      "hotelClass": "由预算自动匹配",
+      "preferences": "商务考察、摄影",
+      "specialNeeds": "需要安排酒店踩线和供应商拜访。"
+    },
+    "summary": {
+      "country": "挪威",
+      "customerType": "商务考察",
+      "hotelTier": "高端型（高端臻享：管家式服务）",
+      "hotelRows": [
+        [
+          "挪威-奥斯陆",
+          "Hotel Continental Oslo（五星 / 高端型 / ¥3,550每间夜）"
+        ],
+        [
+          "挪威-奥斯陆房型",
+          "豪华大床房；1间；优先覆盖：奥斯陆"
+        ],
+        [
+          "挪威-卑尔根",
+          "Opus XVI Bergen（五星 / 高端型 / ¥3,850每间夜）"
+        ],
+        [
+          "挪威-卑尔根房型",
+          "豪华大床房；1间；优先覆盖：卑尔根、弗洛姆、松恩峡湾"
+        ],
+        [
+          "挪威-罗弗敦",
+          "Hattvika Lodge Lofoten（五星 / 高端型 / ¥4,300每间夜）"
+        ],
+        [
+          "挪威-罗弗敦房型",
+          "海景套房；1间；优先覆盖：罗弗敦"
+        ]
+      ],
+      "dayCount": 10,
+      "firstDay": [
+        "Day1",
+        "2026年9月18日；广州 - 奥斯陆。抵达挪威后豪华专车+私导接机，车内备有欢迎饮品，入住Hotel Continental Oslo（奥斯陆）。金牌中文私导全程陪同。根据酒店覆盖区域（奥斯陆），优先安排维格兰雕塑公园、阿克斯胡斯城堡、奥斯陆歌剧院等周边景点初览与入住确认。拜访奥斯陆合作酒店和峡湾游船供应商，确认团队接待方案。"
+      ],
+      "lastDay": [
+        "Day10",
+        "2026年9月27日；罗弗敦 - 广州。上午从Hattvika Lodge Lofoten退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排罗弗敦群岛周边补充游览后豪华专车送机，私导协助登机手续返程。挪威峡湾产品线和北极圈服务链实地评估，更新供应商合同。"
+      ],
+      "invitationTitle": "商务邀请函",
+      "hotelLetter": {
+        "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Accommodation Confirmation for 王思岚 and Travel Party",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 王思岚 and accompanying travel party of 2 person(s).",
+          "The accommodation plan is matched from the internal hotel database for 挪威 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+        ],
+        "table": [
+          [
+            "第1段酒店名称",
+            "Hotel Continental Oslo（挪威 / 奥斯陆）"
+          ],
+          [
+            "第1段酒店等级",
+            "五星 / 高端型"
+          ],
+          [
+            "第1段入住日期",
+            "2026年9月18日"
+          ],
+          [
+            "第1段退房日期",
+            "2026年9月22日"
+          ],
+          [
+            "第1段房型",
+            "豪华大床房"
+          ],
+          [
+            "第1段房间数量",
+            "1间 / 4晚"
+          ],
+          [
+            "第2段酒店名称",
+            "Opus XVI Bergen（挪威 / 卑尔根）"
+          ],
+          [
+            "第2段酒店等级",
+            "五星 / 高端型"
+          ],
+          [
+            "第2段入住日期",
+            "2026年9月22日"
+          ],
+          [
+            "第2段退房日期",
+            "2026年9月25日"
+          ],
+          [
+            "第2段房型",
+            "豪华大床房"
+          ],
+          [
+            "第2段房间数量",
+            "1间 / 3晚"
+          ],
+          [
+            "第3段酒店名称",
+            "Hattvika Lodge Lofoten（挪威 / 罗弗敦）"
+          ],
+          [
+            "第3段酒店等级",
+            "五星 / 高端型"
+          ],
+          [
+            "第3段入住日期",
+            "2026年9月25日"
+          ],
+          [
+            "第3段退房日期",
+            "2026年9月27日"
+          ],
+          [
+            "第3段房型",
+            "海景套房"
+          ],
+          [
+            "第3段房间数量",
+            "1间 / 2晚"
+          ]
+        ],
+        "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+      },
+      "invitationLetter": {
+        "title": "商务邀请函",
+        "heading": "BUSINESS INVITATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Business Visit Invitation for 挪威",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services formally invites 王思岚 and accompanying travel party to visit 挪威 for tourism product inspection, hotel resource review and supplier communication.",
+          "The visit includes accommodation inspection at Hotel Continental Oslo, Opus XVI Bergen, Hattvika Lodge Lofoten and destination service evaluation according to the submitted itinerary."
+        ],
+        "table": [
+          [
+            "Visit Purpose",
+            "Business inspection, supplier communication and customized travel product review."
+          ],
+          [
+            "Invited Party",
+            "王思岚"
+          ],
+          [
+            "Travel Party",
+            "2 person(s)"
+          ],
+          [
+            "Travel Period",
+            "2026年9月18日 - 2026年9月27日"
+          ],
+          [
+            "Destination",
+            "挪威"
+          ],
+          [
+            "Contact",
+            "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+          ]
+        ],
+        "closing": "This invitation is provided for visa support and business travel documentation purposes."
+      },
+      "invitationText": "商务邀请函\nBUSINESS INVITATION LETTER\nSubject: Business Visit Invitation for 挪威\nNordic Horizon International Travel Services formally invites 王思岚 and accompanying travel party to visit 挪威 for tourism product inspection, hotel resource review and supplier communication.\nThe visit includes accommodation inspection at Hotel Continental Oslo, Opus XVI Bergen, Hattvika Lodge Lofoten and destination service evaluation according to the submitted itinerary.",
+      "fullText": "客户需求\n客户姓名: 王思岚\n出行人数: 2人\n出发城市: 广州\n目的地输入: 挪威奥斯陆、卑尔根、松恩峡湾、罗弗敦\n识别目的地: 挪威\n客户类型: 商务考察\n出行日期: 2026年9月18日 至 2026年9月27日\n人均预算: ¥78,000\n酒店等级: 高端型\n方案档位: 高端臻享 — 私享定制，尊贵体验\n交通方式: 豪华商务专车\n导游服务: 金牌中文私导全程陪同\n特殊需求: 需要安排酒店踩线和供应商拜访。\n- 生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。\n\n目的地分析\n挪威: 入境/核心城市：奥斯陆；知识库路线：奥斯陆 -> 卑尔根 -> 弗洛姆 -> 松恩峡湾 -> 盖朗厄尔 -> 罗弗敦 -> 特罗姆瑟；本次仅从挪威知识库读取景点。\n- 系统按国家隔离景点知识库：本次行程仅调用识别目的地（挪威）对应的景点库，不跨国家混用景点资源。\n\n酒店匹配\n挪威-奥斯陆: Hotel Continental Oslo（五星 / 高端型 / ¥3,550每间夜）\n挪威-奥斯陆房型: 豪华大床房；1间；优先覆盖：奥斯陆\n挪威-卑尔根: Opus XVI Bergen（五星 / 高端型 / ¥3,850每间夜）\n挪威-卑尔根房型: 豪华大床房；1间；优先覆盖：卑尔根、弗洛姆、松恩峡湾\n挪威-罗弗敦: Hattvika Lodge Lofoten（五星 / 高端型 / ¥4,300每间夜）\n挪威-罗弗敦房型: 海景套房；1间；优先覆盖：罗弗敦\n- 预算分级：¥78,000 / 人 -> 高端型（高端臻享：管家式服务）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。\n- 本次住宿晚数分配：Hotel Continental Oslo 4晚（2026年9月18日入住，2026年9月22日退房）；Opus XVI Bergen 3晚（2026年9月22日入住，2026年9月25日退房）；Hattvika Lodge Lofoten 2晚（2026年9月25日入住，2026年9月27日退房）。\n\n供应商匹配\n挪威酒店供应商: Norway Fjord Hotel Desk；酒店协议价、房态确认、团队房控；hotel.norway@nordichorizon.cn\n挪威地接供应商: Norway DMC Partners MICE Unit；商务考察、会奖、供应商拜访；mice.norway@nordichorizon.cn\n挪威活动供应商: Fjord & Northern Light Activities Premium Desk；私享体验、包车活动和特殊安排；premium.norway@nordichorizon.cn\n- 供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。\n\n景点规划 / 行程安排\nDay1: 2026年9月18日；广州 - 奥斯陆。抵达挪威后豪华专车+私导接机，车内备有欢迎饮品，入住Hotel Continental Oslo（奥斯陆）。金牌中文私导全程陪同。根据酒店覆盖区域（奥斯陆），优先安排维格兰雕塑公园、阿克斯胡斯城堡、奥斯陆歌剧院等周边景点初览与入住确认。拜访奥斯陆合作酒店和峡湾游船供应商，确认团队接待方案。\nDay2: 2026年9月19日；入住地：奥斯陆（Hotel Continental Oslo）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威奥斯陆周边行程，核心安排：蒙克美术馆。业务说明：世界级艺术馆藏，适合会奖和文化考察。【特色体验：罗弗敦群岛海钓+主厨料理体验（含渔屋住宿+现捕帝王蟹+极光观测）】考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay3: 2026年9月20日；入住地：奥斯陆（Hotel Continental Oslo）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威奥斯陆周边行程，核心安排：阿克斯胡斯城堡。业务说明：中世纪城堡与峡湾全景，适合历史参访。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay4: 2026年9月21日；入住地：奥斯陆（Hotel Continental Oslo）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威奥斯陆周边行程，核心安排：奥斯陆歌剧院。业务说明：城市建筑摄影和轻参访，可登顶俯瞰。【特色体验：罗弗敦维京博物馆私享晚宴（含维京传统盛宴+北欧神话讲解+火炬仪式）】考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay5: 2026年9月22日；入住地：卑尔根（Opus XVI Bergen）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威弗洛姆周边行程，核心安排：弗洛姆高山铁路。业务说明：挪威代表性交通体验。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay6: 2026年9月23日；入住地：卑尔根（Opus XVI Bergen）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威卑尔根周边行程，核心安排：卑尔根鱼市。业务说明：城市核心海鲜市场，适合餐饮和港口产品考察。【特色体验：大西洋之路自驾体验（含敞篷跑车租赁+航拍跟拍+Kristiansund海鲜宴）】考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay7: 2026年9月24日；入住地：卑尔根（Opus XVI Bergen）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威卑尔根周边行程，核心安排：弗洛伊恩山缆车。业务说明：俯瞰卑尔根全景和峡湾入口，适合城市日游。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay8: 2026年9月25日；入住地：罗弗敦（Hattvika Lodge Lofoten）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威罗弗敦周边行程，核心安排：罗弗敦群岛。业务说明：摄影和蜜月客群的高辨识度目的地。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay9: 2026年9月26日；入住地：罗弗敦（Hattvika Lodge Lofoten）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威卑尔根周边行程，核心安排：布吕根码头。业务说明：世界遗产街区，适合城市摄影。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。\nDay10: 2026年9月27日；罗弗敦 - 广州。上午从Hattvika Lodge Lofoten退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排罗弗敦群岛周边补充游览后豪华专车送机，私导协助登机手续返程。挪威峡湾产品线和北极圈服务链实地评估，更新供应商合同。\n- 本次行程严格按 10 天生成，输出范围 Day1-Day10。\n- 景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。\n\n费用计算\n住宿费用: ¥34,350\n交通费用: ¥49,560\n活动费用: ¥21,060\n服务费: ¥12,596\n签证辅助费: ¥1,200\n方案总价（整团）: ¥118,766\n人均参考价: ¥59,383\n- 计算规则：人数 2 人，天数 10 天，酒店等级 高端型（高端臻享），客户类型 商务考察。\n- 费用包含：酒店含早 + 2-3次特色正餐体验；全部景点门票 + VIP通道；豪华商务专车；金牌中文私导全程陪同。\n- 特色项目：含2-3项私享体验。\n- 报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。\n\n签证材料清单\n身份文件: 护照原件、身份证复印件、户口本复印件、婚姻状况证明。\n职业证明: 在职证明、派遣函、营业执照副本、商务访问目的说明。\n资产证明: 近6个月银行流水、余额证明、房产或车辆等辅助资产材料。\n旅行证明: 往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。\n补充材料: 需要安排酒店踩线和供应商拜访。\n- 材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。\n\n酒店确认函\nHOTEL RESERVATION CONFIRMATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Accommodation Confirmation for 王思岚 and Travel Party\nNordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 王思岚 and accompanying travel party of 2 person(s).\nThe accommodation plan is matched from the internal hotel database for 挪威 and selected according to hotel location, room quantity, travel purpose and itinerary sequence.\n第1段酒店名称: Hotel Continental Oslo（挪威 / 奥斯陆）\n第1段酒店等级: 五星 / 高端型\n第1段入住日期: 2026年9月18日\n第1段退房日期: 2026年9月22日\n第1段房型: 豪华大床房\n第1段房间数量: 1间 / 4晚\n第2段酒店名称: Opus XVI Bergen（挪威 / 卑尔根）\n第2段酒店等级: 五星 / 高端型\n第2段入住日期: 2026年9月22日\n第2段退房日期: 2026年9月25日\n第2段房型: 豪华大床房\n第2段房间数量: 1间 / 3晚\n第3段酒店名称: Hattvika Lodge Lofoten（挪威 / 罗弗敦）\n第3段酒店等级: 五星 / 高端型\n第3段入住日期: 2026年9月25日\n第3段退房日期: 2026年9月27日\n第3段房型: 海景套房\n第3段房间数量: 1间 / 2晚\nThis hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed.\n\n商务邀请函\nBUSINESS INVITATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Business Visit Invitation for 挪威\nNordic Horizon International Travel Services formally invites 王思岚 and accompanying travel party to visit 挪威 for tourism product inspection, hotel resource review and supplier communication.\nThe visit includes accommodation inspection at Hotel Continental Oslo, Opus XVI Bergen, Hattvika Lodge Lofoten and destination service evaluation according to the submitted itinerary.\nVisit Purpose: Business inspection, supplier communication and customized travel product review.\nInvited Party: 王思岚\nTravel Party: 2 person(s)\nTravel Period: 2026年9月18日 - 2026年9月27日\nDestination: 挪威\nContact: +86 21 6188 4572 / visa.docs@nordichorizon.cn\nThis invitation is provided for visa support and business travel documentation purposes."
+    },
+    "checks": {
+      "dayCountMatches": true,
+      "denmarkNoIcelandLeak": true,
+      "finlandNoIcelandLeak": true,
+      "icelandNoFinlandLeak": true,
+      "businessInviteOnlyWhenBusiness": true
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "客户需求",
+        "icon": null,
+        "rows": [
+          [
+            "客户姓名",
+            "王思岚"
+          ],
+          [
+            "出行人数",
+            "2人"
+          ],
+          [
+            "出发城市",
+            "广州"
+          ],
+          [
+            "目的地输入",
+            "挪威奥斯陆、卑尔根、松恩峡湾、罗弗敦"
+          ],
+          [
+            "识别目的地",
+            "挪威"
+          ],
+          [
+            "客户类型",
+            "商务考察"
+          ],
+          [
+            "出行日期",
+            "2026年9月18日 至 2026年9月27日"
+          ],
+          [
+            "人均预算",
+            "¥78,000"
+          ],
+          [
+            "酒店等级",
+            "高端型"
+          ],
+          [
+            "方案档位",
+            "高端臻享 — 私享定制，尊贵体验"
+          ],
+          [
+            "交通方式",
+            "豪华商务专车"
+          ],
+          [
+            "导游服务",
+            "金牌中文私导全程陪同"
+          ],
+          [
+            "特殊需求",
+            "需要安排酒店踩线和供应商拜访。"
+          ]
+        ],
+        "clauses": [
+          "生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。"
+        ]
+      },
+      {
+        "id": "analysis",
+        "title": "目的地分析",
+        "icon": null,
+        "rows": [
+          [
+            "挪威",
+            "入境/核心城市：奥斯陆；知识库路线：奥斯陆 -> 卑尔根 -> 弗洛姆 -> 松恩峡湾 -> 盖朗厄尔 -> 罗弗敦 -> 特罗姆瑟；本次仅从挪威知识库读取景点。"
+          ]
+        ],
+        "clauses": [
+          "系统按国家隔离景点知识库：本次行程仅调用识别目的地（挪威）对应的景点库，不跨国家混用景点资源。"
+        ]
+      },
+      {
+        "id": "hotelMatch",
+        "title": "酒店匹配",
+        "icon": null,
+        "rows": [
+          [
+            "挪威-奥斯陆",
+            "Hotel Continental Oslo（五星 / 高端型 / ¥3,550每间夜）"
+          ],
+          [
+            "挪威-奥斯陆房型",
+            "豪华大床房；1间；优先覆盖：奥斯陆"
+          ],
+          [
+            "挪威-卑尔根",
+            "Opus XVI Bergen（五星 / 高端型 / ¥3,850每间夜）"
+          ],
+          [
+            "挪威-卑尔根房型",
+            "豪华大床房；1间；优先覆盖：卑尔根、弗洛姆、松恩峡湾"
+          ],
+          [
+            "挪威-罗弗敦",
+            "Hattvika Lodge Lofoten（五星 / 高端型 / ¥4,300每间夜）"
+          ],
+          [
+            "挪威-罗弗敦房型",
+            "海景套房；1间；优先覆盖：罗弗敦"
+          ]
+        ],
+        "clauses": [
+          "预算分级：¥78,000 / 人 -> 高端型（高端臻享：管家式服务）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。",
+          "本次住宿晚数分配：Hotel Continental Oslo 4晚（2026年9月18日入住，2026年9月22日退房）；Opus XVI Bergen 3晚（2026年9月22日入住，2026年9月25日退房）；Hattvika Lodge Lofoten 2晚（2026年9月25日入住，2026年9月27日退房）。"
+        ]
+      },
+      {
+        "id": "suppliers",
+        "title": "供应商匹配",
+        "icon": null,
+        "rows": [
+          [
+            "挪威酒店供应商",
+            "Norway Fjord Hotel Desk；酒店协议价、房态确认、团队房控；hotel.norway@nordichorizon.cn"
+          ],
+          [
+            "挪威地接供应商",
+            "Norway DMC Partners MICE Unit；商务考察、会奖、供应商拜访；mice.norway@nordichorizon.cn"
+          ],
+          [
+            "挪威活动供应商",
+            "Fjord & Northern Light Activities Premium Desk；私享体验、包车活动和特殊安排；premium.norway@nordichorizon.cn"
+          ]
+        ],
+        "clauses": [
+          "供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。"
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "景点规划 / 行程安排",
+        "icon": null,
+        "rows": [
+          [
+            "Day1",
+            "2026年9月18日；广州 - 奥斯陆。抵达挪威后豪华专车+私导接机，车内备有欢迎饮品，入住Hotel Continental Oslo（奥斯陆）。金牌中文私导全程陪同。根据酒店覆盖区域（奥斯陆），优先安排维格兰雕塑公园、阿克斯胡斯城堡、奥斯陆歌剧院等周边景点初览与入住确认。拜访奥斯陆合作酒店和峡湾游船供应商，确认团队接待方案。"
+          ],
+          [
+            "Day2",
+            "2026年9月19日；入住地：奥斯陆（Hotel Continental Oslo）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威奥斯陆周边行程，核心安排：蒙克美术馆。业务说明：世界级艺术馆藏，适合会奖和文化考察。【特色体验：罗弗敦群岛海钓+主厨料理体验（含渔屋住宿+现捕帝王蟹+极光观测）】考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day3",
+            "2026年9月20日；入住地：奥斯陆（Hotel Continental Oslo）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威奥斯陆周边行程，核心安排：阿克斯胡斯城堡。业务说明：中世纪城堡与峡湾全景，适合历史参访。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day4",
+            "2026年9月21日；入住地：奥斯陆（Hotel Continental Oslo）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威奥斯陆周边行程，核心安排：奥斯陆歌剧院。业务说明：城市建筑摄影和轻参访，可登顶俯瞰。【特色体验：罗弗敦维京博物馆私享晚宴（含维京传统盛宴+北欧神话讲解+火炬仪式）】考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day5",
+            "2026年9月22日；入住地：卑尔根（Opus XVI Bergen）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威弗洛姆周边行程，核心安排：弗洛姆高山铁路。业务说明：挪威代表性交通体验。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day6",
+            "2026年9月23日；入住地：卑尔根（Opus XVI Bergen）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威卑尔根周边行程，核心安排：卑尔根鱼市。业务说明：城市核心海鲜市场，适合餐饮和港口产品考察。【特色体验：大西洋之路自驾体验（含敞篷跑车租赁+航拍跟拍+Kristiansund海鲜宴）】考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day7",
+            "2026年9月24日；入住地：卑尔根（Opus XVI Bergen）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威卑尔根周边行程，核心安排：弗洛伊恩山缆车。业务说明：俯瞰卑尔根全景和峡湾入口，适合城市日游。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day8",
+            "2026年9月25日；入住地：罗弗敦（Hattvika Lodge Lofoten）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威罗弗敦周边行程，核心安排：罗弗敦群岛。业务说明：摄影和蜜月客群的高辨识度目的地。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day9",
+            "2026年9月26日；入住地：罗弗敦（Hattvika Lodge Lofoten）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排挪威卑尔根周边行程，核心安排：布吕根码头。业务说明：世界遗产街区，适合城市摄影。考察峡湾地区地接资源、罗弗敦海钓和特罗姆瑟极光营地运营。"
+          ],
+          [
+            "Day10",
+            "2026年9月27日；罗弗敦 - 广州。上午从Hattvika Lodge Lofoten退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排罗弗敦群岛周边补充游览后豪华专车送机，私导协助登机手续返程。挪威峡湾产品线和北极圈服务链实地评估，更新供应商合同。"
+          ]
+        ],
+        "clauses": [
+          "本次行程严格按 10 天生成，输出范围 Day1-Day10。",
+          "景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。"
+        ]
+      },
+      {
+        "id": "costs",
+        "title": "费用计算",
+        "icon": null,
+        "rows": [
+          [
+            "住宿费用",
+            "¥34,350"
+          ],
+          [
+            "交通费用",
+            "¥49,560"
+          ],
+          [
+            "活动费用",
+            "¥21,060"
+          ],
+          [
+            "服务费",
+            "¥12,596"
+          ],
+          [
+            "签证辅助费",
+            "¥1,200"
+          ],
+          [
+            "方案总价（整团）",
+            "¥118,766"
+          ],
+          [
+            "人均参考价",
+            "¥59,383"
+          ]
+        ],
+        "clauses": [
+          "计算规则：人数 2 人，天数 10 天，酒店等级 高端型（高端臻享），客户类型 商务考察。",
+          "费用包含：酒店含早 + 2-3次特色正餐体验；全部景点门票 + VIP通道；豪华商务专车；金牌中文私导全程陪同。",
+          "特色项目：含2-3项私享体验。",
+          "报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。"
+        ]
+      },
+      {
+        "id": "visa",
+        "title": "签证材料清单",
+        "icon": null,
+        "rows": [
+          [
+            "身份文件",
+            "护照原件、身份证复印件、户口本复印件、婚姻状况证明。"
+          ],
+          [
+            "职业证明",
+            "在职证明、派遣函、营业执照副本、商务访问目的说明。"
+          ],
+          [
+            "资产证明",
+            "近6个月银行流水、余额证明、房产或车辆等辅助资产材料。"
+          ],
+          [
+            "旅行证明",
+            "往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。"
+          ],
+          [
+            "补充材料",
+            "需要安排酒店踩线和供应商拜访。"
+          ]
+        ],
+        "clauses": [
+          "材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。"
+        ]
+      },
+      {
+        "id": "hotel",
+        "title": "酒店确认函",
+        "icon": null,
+        "letter": {
+          "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Accommodation Confirmation for 王思岚 and Travel Party",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 王思岚 and accompanying travel party of 2 person(s).",
+            "The accommodation plan is matched from the internal hotel database for 挪威 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+          ],
+          "table": [
+            [
+              "第1段酒店名称",
+              "Hotel Continental Oslo（挪威 / 奥斯陆）"
+            ],
+            [
+              "第1段酒店等级",
+              "五星 / 高端型"
+            ],
+            [
+              "第1段入住日期",
+              "2026年9月18日"
+            ],
+            [
+              "第1段退房日期",
+              "2026年9月22日"
+            ],
+            [
+              "第1段房型",
+              "豪华大床房"
+            ],
+            [
+              "第1段房间数量",
+              "1间 / 4晚"
+            ],
+            [
+              "第2段酒店名称",
+              "Opus XVI Bergen（挪威 / 卑尔根）"
+            ],
+            [
+              "第2段酒店等级",
+              "五星 / 高端型"
+            ],
+            [
+              "第2段入住日期",
+              "2026年9月22日"
+            ],
+            [
+              "第2段退房日期",
+              "2026年9月25日"
+            ],
+            [
+              "第2段房型",
+              "豪华大床房"
+            ],
+            [
+              "第2段房间数量",
+              "1间 / 3晚"
+            ],
+            [
+              "第3段酒店名称",
+              "Hattvika Lodge Lofoten（挪威 / 罗弗敦）"
+            ],
+            [
+              "第3段酒店等级",
+              "五星 / 高端型"
+            ],
+            [
+              "第3段入住日期",
+              "2026年9月25日"
+            ],
+            [
+              "第3段退房日期",
+              "2026年9月27日"
+            ],
+            [
+              "第3段房型",
+              "海景套房"
+            ],
+            [
+              "第3段房间数量",
+              "1间 / 2晚"
+            ]
+          ],
+          "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+        }
+      },
+      {
+        "id": "invitation",
+        "title": "商务邀请函",
+        "icon": null,
+        "letter": {
+          "title": "商务邀请函",
+          "heading": "BUSINESS INVITATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Business Visit Invitation for 挪威",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services formally invites 王思岚 and accompanying travel party to visit 挪威 for tourism product inspection, hotel resource review and supplier communication.",
+            "The visit includes accommodation inspection at Hotel Continental Oslo, Opus XVI Bergen, Hattvika Lodge Lofoten and destination service evaluation according to the submitted itinerary."
+          ],
+          "table": [
+            [
+              "Visit Purpose",
+              "Business inspection, supplier communication and customized travel product review."
+            ],
+            [
+              "Invited Party",
+              "王思岚"
+            ],
+            [
+              "Travel Party",
+              "2 person(s)"
+            ],
+            [
+              "Travel Period",
+              "2026年9月18日 - 2026年9月27日"
+            ],
+            [
+              "Destination",
+              "挪威"
+            ],
+            [
+              "Contact",
+              "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+            ]
+          ],
+          "closing": "This invitation is provided for visa support and business travel documentation purposes."
+        }
+      }
+    ]
+  },
+  {
+    "input": {
+      "customerName": "赵明煦",
+      "travelers": 2,
+      "departureCity": "杭州",
+      "departureDate": "2026-11-05",
+      "destinations": "瑞典斯德哥尔摩、乌普萨拉、基律纳、阿比斯库国家公园",
+      "days": 12,
+      "budget": 62000,
+      "hotelClass": "由预算自动匹配",
+      "preferences": "蜜月、摄影、自然风光",
+      "specialNeeds": "偏好私密用餐和景观酒店。"
+    },
+    "summary": {
+      "country": "瑞典",
+      "customerType": "蜜月旅行",
+      "hotelTier": "高端型（高端臻享：管家式服务）",
+      "hotelRows": [
+        [
+          "瑞典-斯德哥尔摩",
+          "Grand Hotel Stockholm（五星 / 高端型 / ¥3,650每间夜）"
+        ],
+        [
+          "瑞典-斯德哥尔摩房型",
+          "豪华大床房；1间；优先覆盖：斯德哥尔摩、斯德哥尔摩群岛、乌普萨拉"
+        ],
+        [
+          "瑞典-乌普萨拉",
+          "Elite Hotel Academia Uppsala（五星 / 高端型 / ¥2,850每间夜）"
+        ],
+        [
+          "瑞典-乌普萨拉房型",
+          "行政大床房；1间；优先覆盖：乌普萨拉、斯德哥尔摩、斯德哥尔摩群岛"
+        ],
+        [
+          "瑞典-基律纳",
+          "Icehotel Kiruna（五星 / 高端型 / ¥4,300每间夜）"
+        ],
+        [
+          "瑞典-基律纳房型",
+          "冰屋套房；1间；优先覆盖：基律纳、阿比斯库"
+        ]
+      ],
+      "dayCount": 12,
+      "firstDay": [
+        "Day1",
+        "2026年11月5日；杭州 - 斯德哥尔摩。抵达瑞典后豪华专车+私导接机，车内备有欢迎饮品，入住Grand Hotel Stockholm（斯德哥尔摩）。金牌中文私导全程陪同。根据酒店覆盖区域（斯德哥尔摩、斯德哥尔摩群岛、乌普萨拉），优先安排斯德哥尔摩市政厅、瑞典皇宫、斯德哥尔摩老城等周边景点初览与入住确认。预留慢节奏体验、景观用餐和私密停留。"
+      ],
+      "lastDay": [
+        "Day12",
+        "2026年11月16日；基律纳 - 杭州。上午从Icehotel Kiruna退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排基律纳教堂、冰酒店、阿比斯库国家公园周边补充游览后豪华专车送机，私导协助登机手续返程。预留慢节奏体验、景观用餐和私密停留。"
+      ],
+      "invitationTitle": "蜜月行程说明函",
+      "hotelLetter": {
+        "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Accommodation Confirmation for 赵明煦 and Travel Party",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 赵明煦 and accompanying travel party of 2 person(s).",
+          "The accommodation plan is matched from the internal hotel database for 瑞典 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+        ],
+        "table": [
+          [
+            "第1段酒店名称",
+            "Grand Hotel Stockholm（瑞典 / 斯德哥尔摩）"
+          ],
+          [
+            "第1段酒店等级",
+            "五星 / 高端型"
+          ],
+          [
+            "第1段入住日期",
+            "2026年11月5日"
+          ],
+          [
+            "第1段退房日期",
+            "2026年11月9日"
+          ],
+          [
+            "第1段房型",
+            "豪华大床房"
+          ],
+          [
+            "第1段房间数量",
+            "1间 / 4晚"
+          ],
+          [
+            "第2段酒店名称",
+            "Elite Hotel Academia Uppsala（瑞典 / 乌普萨拉）"
+          ],
+          [
+            "第2段酒店等级",
+            "五星 / 高端型"
+          ],
+          [
+            "第2段入住日期",
+            "2026年11月9日"
+          ],
+          [
+            "第2段退房日期",
+            "2026年11月13日"
+          ],
+          [
+            "第2段房型",
+            "行政大床房"
+          ],
+          [
+            "第2段房间数量",
+            "1间 / 4晚"
+          ],
+          [
+            "第3段酒店名称",
+            "Icehotel Kiruna（瑞典 / 基律纳）"
+          ],
+          [
+            "第3段酒店等级",
+            "五星 / 高端型"
+          ],
+          [
+            "第3段入住日期",
+            "2026年11月13日"
+          ],
+          [
+            "第3段退房日期",
+            "2026年11月16日"
+          ],
+          [
+            "第3段房型",
+            "冰屋套房"
+          ],
+          [
+            "第3段房间数量",
+            "1间 / 3晚"
+          ]
+        ],
+        "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+      },
+      "invitationLetter": {
+        "title": "蜜月行程说明函",
+        "heading": "HONEYMOON ITINERARY STATEMENT",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Honeymoon Travel Statement for 瑞典",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that 赵明煦 plans a honeymoon-oriented itinerary to 瑞典.",
+          "The route emphasizes boutique accommodation, scenic experiences, slower pacing and private travel moments suitable for a honeymoon trip."
+        ],
+        "table": [
+          [
+            "Travel Purpose",
+            "Honeymoon travel and private scenic experience."
+          ],
+          [
+            "Invited Party",
+            "赵明煦"
+          ],
+          [
+            "Travel Party",
+            "2 person(s)"
+          ],
+          [
+            "Travel Period",
+            "2026年11月5日 - 2026年11月16日"
+          ],
+          [
+            "Destination",
+            "瑞典"
+          ],
+          [
+            "Contact",
+            "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+          ]
+        ],
+        "closing": "This statement is issued for visa support and travel arrangement reference."
+      },
+      "invitationText": "蜜月行程说明函\nHONEYMOON ITINERARY STATEMENT\nSubject: Honeymoon Travel Statement for 瑞典\nNordic Horizon International Travel Services confirms that 赵明煦 plans a honeymoon-oriented itinerary to 瑞典.\nThe route emphasizes boutique accommodation, scenic experiences, slower pacing and private travel moments suitable for a honeymoon trip.",
+      "fullText": "客户需求\n客户姓名: 赵明煦\n出行人数: 2人\n出发城市: 杭州\n目的地输入: 瑞典斯德哥尔摩、乌普萨拉、基律纳、阿比斯库国家公园\n识别目的地: 瑞典\n客户类型: 蜜月旅行\n出行日期: 2026年11月5日 至 2026年11月16日\n人均预算: ¥62,000\n酒店等级: 高端型\n方案档位: 高端臻享 — 私享定制，尊贵体验\n交通方式: 豪华商务专车\n导游服务: 金牌中文私导全程陪同\n特殊需求: 偏好私密用餐和景观酒店。\n- 生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。\n\n目的地分析\n瑞典: 入境/核心城市：斯德哥尔摩；知识库路线：斯德哥尔摩 -> 斯德哥尔摩群岛 -> 乌普萨拉 -> 基律纳 -> 阿比斯库；本次仅从瑞典知识库读取景点。\n- 系统按国家隔离景点知识库：本次行程仅调用识别目的地（瑞典）对应的景点库，不跨国家混用景点资源。\n\n酒店匹配\n瑞典-斯德哥尔摩: Grand Hotel Stockholm（五星 / 高端型 / ¥3,650每间夜）\n瑞典-斯德哥尔摩房型: 豪华大床房；1间；优先覆盖：斯德哥尔摩、斯德哥尔摩群岛、乌普萨拉\n瑞典-乌普萨拉: Elite Hotel Academia Uppsala（五星 / 高端型 / ¥2,850每间夜）\n瑞典-乌普萨拉房型: 行政大床房；1间；优先覆盖：乌普萨拉、斯德哥尔摩、斯德哥尔摩群岛\n瑞典-基律纳: Icehotel Kiruna（五星 / 高端型 / ¥4,300每间夜）\n瑞典-基律纳房型: 冰屋套房；1间；优先覆盖：基律纳、阿比斯库\n- 预算分级：¥62,000 / 人 -> 高端型（高端臻享：管家式服务）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。\n- 本次住宿晚数分配：Grand Hotel Stockholm 4晚（2026年11月5日入住，2026年11月9日退房）；Elite Hotel Academia Uppsala 4晚（2026年11月9日入住，2026年11月13日退房）；Icehotel Kiruna 3晚（2026年11月13日入住，2026年11月16日退房）。\n\n供应商匹配\n瑞典酒店供应商: Stockholm Hospitality Desk；酒店协议价、房态确认、团队房控；hotel.sweden@nordichorizon.cn\n瑞典地接供应商: Sweden DMC Solutions；中文司导、车辆、地接统筹；dmc.sweden@nordichorizon.cn\n瑞典活动供应商: Arctic Sweden Experience Premium Desk；私享体验、包车活动和特殊安排；premium.sweden@nordichorizon.cn\n- 供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。\n\n景点规划 / 行程安排\nDay1: 2026年11月5日；杭州 - 斯德哥尔摩。抵达瑞典后豪华专车+私导接机，车内备有欢迎饮品，入住Grand Hotel Stockholm（斯德哥尔摩）。金牌中文私导全程陪同。根据酒店覆盖区域（斯德哥尔摩、斯德哥尔摩群岛、乌普萨拉），优先安排斯德哥尔摩市政厅、瑞典皇宫、斯德哥尔摩老城等周边景点初览与入住确认。预留慢节奏体验、景观用餐和私密停留。\nDay2: 2026年11月6日；入住地：斯德哥尔摩（Grand Hotel Stockholm）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：斯德哥尔摩老城。业务说明：城市摄影和轻量步行核心区域。【特色体验：达拉纳省传统木马工坊私享（手工彩绘+百年传承匠人指导）】预留慢节奏体验、景观用餐和私密停留。\nDay3: 2026年11月7日；入住地：斯德哥尔摩（Grand Hotel Stockholm）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：斯德哥尔摩市政厅。业务说明：诺贝尔奖晚宴举办地，适合会奖和文化考察。预留慢节奏体验、景观用餐和私密停留。\nDay4: 2026年11月8日；入住地：斯德哥尔摩（Grand Hotel Stockholm）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：瑞典皇宫。业务说明：皇家卫兵换岗仪式及王室文化核心参访点。预留慢节奏体验、景观用餐和私密停留。\nDay5: 2026年11月9日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：斯堪森露天博物馆。业务说明：世界首家露天博物馆，适合亲子和文化深度体验。预留慢节奏体验、景观用餐和私密停留。\nDay6: 2026年11月10日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典乌普萨拉周边行程，核心安排：乌普萨拉大教堂。业务说明：北欧最大教堂，适合文化参访和城市导览。预留慢节奏体验、景观用餐和私密停留。\nDay7: 2026年11月11日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典乌普萨拉周边行程，核心安排：古斯塔夫博物馆。业务说明：维京文化与北欧历史核心展示资源。【特色体验：冰酒店一晚住宿体验（含冰雕课程+热石按摩+晨起热饮）】预留慢节奏体验、景观用餐和私密停留。\nDay8: 2026年11月12日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：瓦萨沉船博物馆。业务说明：亲子和文化型客户适用。预留慢节奏体验、景观用餐和私密停留。\nDay9: 2026年11月13日；入住地：基律纳（Icehotel Kiruna）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典基律纳周边行程，核心安排：冰酒店。业务说明：高端和蜜月客群的特色住宿体验。预留慢节奏体验、景观用餐和私密停留。\nDay10: 2026年11月14日；入住地：基律纳（Icehotel Kiruna）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典阿比斯库周边行程，核心安排：阿比斯库极光天空站。业务说明：极光摄影与夜间体验节点。预留慢节奏体验、景观用餐和私密停留。\nDay11: 2026年11月15日；入住地：基律纳（Icehotel Kiruna）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典阿比斯库周边行程，核心安排：阿比斯库国家公园。业务说明：瑞典北部极光和国家公园资源。预留慢节奏体验、景观用餐和私密停留。\nDay12: 2026年11月16日；基律纳 - 杭州。上午从Icehotel Kiruna退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排基律纳教堂、冰酒店、阿比斯库国家公园周边补充游览后豪华专车送机，私导协助登机手续返程。预留慢节奏体验、景观用餐和私密停留。\n- 本次行程严格按 12 天生成，输出范围 Day1-Day12。\n- 景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。\n\n费用计算\n住宿费用: ¥38,900\n交通费用: ¥60,480\n活动费用: ¥24,624\n服务费: ¥14,880\n签证辅助费: ¥1,200\n方案总价（整团）: ¥140,084\n人均参考价: ¥70,042\n- 计算规则：人数 2 人，天数 12 天，酒店等级 高端型（高端臻享），客户类型 蜜月旅行。\n- 费用包含：酒店含早 + 2-3次特色正餐体验；全部景点门票 + VIP通道；豪华商务专车；金牌中文私导全程陪同。\n- 特色项目：含2-3项私享体验。\n- 报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。\n\n签证材料清单\n身份文件: 护照原件、身份证复印件、户口本复印件、婚姻状况证明。\n职业证明: 在职证明、营业执照副本或收入来源说明。\n资产证明: 近6个月银行流水、余额证明、房产或车辆等辅助资产材料。\n旅行证明: 往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。\n补充材料: 偏好私密用餐和景观酒店。\n- 材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。\n\n酒店确认函\nHOTEL RESERVATION CONFIRMATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Accommodation Confirmation for 赵明煦 and Travel Party\nNordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 赵明煦 and accompanying travel party of 2 person(s).\nThe accommodation plan is matched from the internal hotel database for 瑞典 and selected according to hotel location, room quantity, travel purpose and itinerary sequence.\n第1段酒店名称: Grand Hotel Stockholm（瑞典 / 斯德哥尔摩）\n第1段酒店等级: 五星 / 高端型\n第1段入住日期: 2026年11月5日\n第1段退房日期: 2026年11月9日\n第1段房型: 豪华大床房\n第1段房间数量: 1间 / 4晚\n第2段酒店名称: Elite Hotel Academia Uppsala（瑞典 / 乌普萨拉）\n第2段酒店等级: 五星 / 高端型\n第2段入住日期: 2026年11月9日\n第2段退房日期: 2026年11月13日\n第2段房型: 行政大床房\n第2段房间数量: 1间 / 4晚\n第3段酒店名称: Icehotel Kiruna（瑞典 / 基律纳）\n第3段酒店等级: 五星 / 高端型\n第3段入住日期: 2026年11月13日\n第3段退房日期: 2026年11月16日\n第3段房型: 冰屋套房\n第3段房间数量: 1间 / 3晚\nThis hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed.\n\n蜜月行程说明函\nHONEYMOON ITINERARY STATEMENT\nTo: Visa Officer / Consular Section\nSubject: Honeymoon Travel Statement for 瑞典\nNordic Horizon International Travel Services confirms that 赵明煦 plans a honeymoon-oriented itinerary to 瑞典.\nThe route emphasizes boutique accommodation, scenic experiences, slower pacing and private travel moments suitable for a honeymoon trip.\nTravel Purpose: Honeymoon travel and private scenic experience.\nInvited Party: 赵明煦\nTravel Party: 2 person(s)\nTravel Period: 2026年11月5日 - 2026年11月16日\nDestination: 瑞典\nContact: +86 21 6188 4572 / visa.docs@nordichorizon.cn\nThis statement is issued for visa support and travel arrangement reference."
+    },
+    "checks": {
+      "dayCountMatches": true,
+      "denmarkNoIcelandLeak": true,
+      "finlandNoIcelandLeak": true,
+      "icelandNoFinlandLeak": true,
+      "businessInviteOnlyWhenBusiness": true
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "客户需求",
+        "icon": null,
+        "rows": [
+          [
+            "客户姓名",
+            "赵明煦"
+          ],
+          [
+            "出行人数",
+            "2人"
+          ],
+          [
+            "出发城市",
+            "杭州"
+          ],
+          [
+            "目的地输入",
+            "瑞典斯德哥尔摩、乌普萨拉、基律纳、阿比斯库国家公园"
+          ],
+          [
+            "识别目的地",
+            "瑞典"
+          ],
+          [
+            "客户类型",
+            "蜜月旅行"
+          ],
+          [
+            "出行日期",
+            "2026年11月5日 至 2026年11月16日"
+          ],
+          [
+            "人均预算",
+            "¥62,000"
+          ],
+          [
+            "酒店等级",
+            "高端型"
+          ],
+          [
+            "方案档位",
+            "高端臻享 — 私享定制，尊贵体验"
+          ],
+          [
+            "交通方式",
+            "豪华商务专车"
+          ],
+          [
+            "导游服务",
+            "金牌中文私导全程陪同"
+          ],
+          [
+            "特殊需求",
+            "偏好私密用餐和景观酒店。"
+          ]
+        ],
+        "clauses": [
+          "生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。"
+        ]
+      },
+      {
+        "id": "analysis",
+        "title": "目的地分析",
+        "icon": null,
+        "rows": [
+          [
+            "瑞典",
+            "入境/核心城市：斯德哥尔摩；知识库路线：斯德哥尔摩 -> 斯德哥尔摩群岛 -> 乌普萨拉 -> 基律纳 -> 阿比斯库；本次仅从瑞典知识库读取景点。"
+          ]
+        ],
+        "clauses": [
+          "系统按国家隔离景点知识库：本次行程仅调用识别目的地（瑞典）对应的景点库，不跨国家混用景点资源。"
+        ]
+      },
+      {
+        "id": "hotelMatch",
+        "title": "酒店匹配",
+        "icon": null,
+        "rows": [
+          [
+            "瑞典-斯德哥尔摩",
+            "Grand Hotel Stockholm（五星 / 高端型 / ¥3,650每间夜）"
+          ],
+          [
+            "瑞典-斯德哥尔摩房型",
+            "豪华大床房；1间；优先覆盖：斯德哥尔摩、斯德哥尔摩群岛、乌普萨拉"
+          ],
+          [
+            "瑞典-乌普萨拉",
+            "Elite Hotel Academia Uppsala（五星 / 高端型 / ¥2,850每间夜）"
+          ],
+          [
+            "瑞典-乌普萨拉房型",
+            "行政大床房；1间；优先覆盖：乌普萨拉、斯德哥尔摩、斯德哥尔摩群岛"
+          ],
+          [
+            "瑞典-基律纳",
+            "Icehotel Kiruna（五星 / 高端型 / ¥4,300每间夜）"
+          ],
+          [
+            "瑞典-基律纳房型",
+            "冰屋套房；1间；优先覆盖：基律纳、阿比斯库"
+          ]
+        ],
+        "clauses": [
+          "预算分级：¥62,000 / 人 -> 高端型（高端臻享：管家式服务）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。",
+          "本次住宿晚数分配：Grand Hotel Stockholm 4晚（2026年11月5日入住，2026年11月9日退房）；Elite Hotel Academia Uppsala 4晚（2026年11月9日入住，2026年11月13日退房）；Icehotel Kiruna 3晚（2026年11月13日入住，2026年11月16日退房）。"
+        ]
+      },
+      {
+        "id": "suppliers",
+        "title": "供应商匹配",
+        "icon": null,
+        "rows": [
+          [
+            "瑞典酒店供应商",
+            "Stockholm Hospitality Desk；酒店协议价、房态确认、团队房控；hotel.sweden@nordichorizon.cn"
+          ],
+          [
+            "瑞典地接供应商",
+            "Sweden DMC Solutions；中文司导、车辆、地接统筹；dmc.sweden@nordichorizon.cn"
+          ],
+          [
+            "瑞典活动供应商",
+            "Arctic Sweden Experience Premium Desk；私享体验、包车活动和特殊安排；premium.sweden@nordichorizon.cn"
+          ]
+        ],
+        "clauses": [
+          "供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。"
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "景点规划 / 行程安排",
+        "icon": null,
+        "rows": [
+          [
+            "Day1",
+            "2026年11月5日；杭州 - 斯德哥尔摩。抵达瑞典后豪华专车+私导接机，车内备有欢迎饮品，入住Grand Hotel Stockholm（斯德哥尔摩）。金牌中文私导全程陪同。根据酒店覆盖区域（斯德哥尔摩、斯德哥尔摩群岛、乌普萨拉），优先安排斯德哥尔摩市政厅、瑞典皇宫、斯德哥尔摩老城等周边景点初览与入住确认。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day2",
+            "2026年11月6日；入住地：斯德哥尔摩（Grand Hotel Stockholm）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：斯德哥尔摩老城。业务说明：城市摄影和轻量步行核心区域。【特色体验：达拉纳省传统木马工坊私享（手工彩绘+百年传承匠人指导）】预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day3",
+            "2026年11月7日；入住地：斯德哥尔摩（Grand Hotel Stockholm）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：斯德哥尔摩市政厅。业务说明：诺贝尔奖晚宴举办地，适合会奖和文化考察。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day4",
+            "2026年11月8日；入住地：斯德哥尔摩（Grand Hotel Stockholm）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：瑞典皇宫。业务说明：皇家卫兵换岗仪式及王室文化核心参访点。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day5",
+            "2026年11月9日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：斯堪森露天博物馆。业务说明：世界首家露天博物馆，适合亲子和文化深度体验。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day6",
+            "2026年11月10日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典乌普萨拉周边行程，核心安排：乌普萨拉大教堂。业务说明：北欧最大教堂，适合文化参访和城市导览。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day7",
+            "2026年11月11日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典乌普萨拉周边行程，核心安排：古斯塔夫博物馆。业务说明：维京文化与北欧历史核心展示资源。【特色体验：冰酒店一晚住宿体验（含冰雕课程+热石按摩+晨起热饮）】预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day8",
+            "2026年11月12日；入住地：乌普萨拉（Elite Hotel Academia Uppsala）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典斯德哥尔摩周边行程，核心安排：瓦萨沉船博物馆。业务说明：亲子和文化型客户适用。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day9",
+            "2026年11月13日；入住地：基律纳（Icehotel Kiruna）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典基律纳周边行程，核心安排：冰酒店。业务说明：高端和蜜月客群的特色住宿体验。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day10",
+            "2026年11月14日；入住地：基律纳（Icehotel Kiruna）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典阿比斯库周边行程，核心安排：阿比斯库极光天空站。业务说明：极光摄影与夜间体验节点。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day11",
+            "2026年11月15日；入住地：基律纳（Icehotel Kiruna）。豪华商务车随行，金牌私导全程陪同讲解。围绕酒店覆盖区域安排瑞典阿比斯库周边行程，核心安排：阿比斯库国家公园。业务说明：瑞典北部极光和国家公园资源。预留慢节奏体验、景观用餐和私密停留。"
+          ],
+          [
+            "Day12",
+            "2026年11月16日；基律纳 - 杭州。上午从Icehotel Kiruna退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排基律纳教堂、冰酒店、阿比斯库国家公园周边补充游览后豪华专车送机，私导协助登机手续返程。预留慢节奏体验、景观用餐和私密停留。"
+          ]
+        ],
+        "clauses": [
+          "本次行程严格按 12 天生成，输出范围 Day1-Day12。",
+          "景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。"
+        ]
+      },
+      {
+        "id": "costs",
+        "title": "费用计算",
+        "icon": null,
+        "rows": [
+          [
+            "住宿费用",
+            "¥38,900"
+          ],
+          [
+            "交通费用",
+            "¥60,480"
+          ],
+          [
+            "活动费用",
+            "¥24,624"
+          ],
+          [
+            "服务费",
+            "¥14,880"
+          ],
+          [
+            "签证辅助费",
+            "¥1,200"
+          ],
+          [
+            "方案总价（整团）",
+            "¥140,084"
+          ],
+          [
+            "人均参考价",
+            "¥70,042"
+          ]
+        ],
+        "clauses": [
+          "计算规则：人数 2 人，天数 12 天，酒店等级 高端型（高端臻享），客户类型 蜜月旅行。",
+          "费用包含：酒店含早 + 2-3次特色正餐体验；全部景点门票 + VIP通道；豪华商务专车；金牌中文私导全程陪同。",
+          "特色项目：含2-3项私享体验。",
+          "报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。"
+        ]
+      },
+      {
+        "id": "visa",
+        "title": "签证材料清单",
+        "icon": null,
+        "rows": [
+          [
+            "身份文件",
+            "护照原件、身份证复印件、户口本复印件、婚姻状况证明。"
+          ],
+          [
+            "职业证明",
+            "在职证明、营业执照副本或收入来源说明。"
+          ],
+          [
+            "资产证明",
+            "近6个月银行流水、余额证明、房产或车辆等辅助资产材料。"
+          ],
+          [
+            "旅行证明",
+            "往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。"
+          ],
+          [
+            "补充材料",
+            "偏好私密用餐和景观酒店。"
+          ]
+        ],
+        "clauses": [
+          "材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。"
+        ]
+      },
+      {
+        "id": "hotel",
+        "title": "酒店确认函",
+        "icon": null,
+        "letter": {
+          "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Accommodation Confirmation for 赵明煦 and Travel Party",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 赵明煦 and accompanying travel party of 2 person(s).",
+            "The accommodation plan is matched from the internal hotel database for 瑞典 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+          ],
+          "table": [
+            [
+              "第1段酒店名称",
+              "Grand Hotel Stockholm（瑞典 / 斯德哥尔摩）"
+            ],
+            [
+              "第1段酒店等级",
+              "五星 / 高端型"
+            ],
+            [
+              "第1段入住日期",
+              "2026年11月5日"
+            ],
+            [
+              "第1段退房日期",
+              "2026年11月9日"
+            ],
+            [
+              "第1段房型",
+              "豪华大床房"
+            ],
+            [
+              "第1段房间数量",
+              "1间 / 4晚"
+            ],
+            [
+              "第2段酒店名称",
+              "Elite Hotel Academia Uppsala（瑞典 / 乌普萨拉）"
+            ],
+            [
+              "第2段酒店等级",
+              "五星 / 高端型"
+            ],
+            [
+              "第2段入住日期",
+              "2026年11月9日"
+            ],
+            [
+              "第2段退房日期",
+              "2026年11月13日"
+            ],
+            [
+              "第2段房型",
+              "行政大床房"
+            ],
+            [
+              "第2段房间数量",
+              "1间 / 4晚"
+            ],
+            [
+              "第3段酒店名称",
+              "Icehotel Kiruna（瑞典 / 基律纳）"
+            ],
+            [
+              "第3段酒店等级",
+              "五星 / 高端型"
+            ],
+            [
+              "第3段入住日期",
+              "2026年11月13日"
+            ],
+            [
+              "第3段退房日期",
+              "2026年11月16日"
+            ],
+            [
+              "第3段房型",
+              "冰屋套房"
+            ],
+            [
+              "第3段房间数量",
+              "1间 / 3晚"
+            ]
+          ],
+          "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+        }
+      },
+      {
+        "id": "invitation",
+        "title": "蜜月行程说明函",
+        "icon": null,
+        "letter": {
+          "title": "蜜月行程说明函",
+          "heading": "HONEYMOON ITINERARY STATEMENT",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Honeymoon Travel Statement for 瑞典",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that 赵明煦 plans a honeymoon-oriented itinerary to 瑞典.",
+            "The route emphasizes boutique accommodation, scenic experiences, slower pacing and private travel moments suitable for a honeymoon trip."
+          ],
+          "table": [
+            [
+              "Travel Purpose",
+              "Honeymoon travel and private scenic experience."
+            ],
+            [
+              "Invited Party",
+              "赵明煦"
+            ],
+            [
+              "Travel Party",
+              "2 person(s)"
+            ],
+            [
+              "Travel Period",
+              "2026年11月5日 - 2026年11月16日"
+            ],
+            [
+              "Destination",
+              "瑞典"
+            ],
+            [
+              "Contact",
+              "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+            ]
+          ],
+          "closing": "This statement is issued for visa support and travel arrangement reference."
+        }
+      }
+    ]
+  },
+  {
+    "input": {
+      "customerName": "何沐阳",
+      "travelers": 5,
+      "departureCity": "成都",
+      "departureDate": "2026-10-22",
+      "destinations": "丹麦哥本哈根、北西兰岛、欧登塞",
+      "days": 8,
+      "budget": 36000,
+      "hotelClass": "由预算自动匹配",
+      "preferences": "自然风光、亲子",
+      "specialNeeds": "希望控制每日车程并保留自由活动。"
+    },
+    "summary": {
+      "country": "丹麦",
+      "customerType": "亲子出游",
+      "hotelTier": "舒适型（舒适精选：升级服务体验）",
+      "hotelRows": [
+        [
+          "丹麦-哥本哈根",
+          "Scandic Spectrum Copenhagen（四星 / 舒适型 / ¥1,680每间夜）"
+        ],
+        [
+          "丹麦-哥本哈根房型",
+          "高级双床房；3间；优先覆盖：哥本哈根、北西兰岛"
+        ],
+        [
+          "丹麦-欧登塞",
+          "Hotel Odeon Odense（四星 / 舒适型 / ¥1,480每间夜）"
+        ],
+        [
+          "丹麦-欧登塞房型",
+          "家庭房；3间；优先覆盖：欧登塞"
+        ],
+        [
+          "丹麦-奥胡斯",
+          "Comwell Aarhus Dolce（四星 / 舒适型 / ¥1,580每间夜）"
+        ],
+        [
+          "丹麦-奥胡斯房型",
+          "高级双床房；3间；优先覆盖：奥胡斯"
+        ]
+      ],
+      "dayCount": 8,
+      "firstDay": [
+        "Day1",
+        "2026年10月22日；成都 - 哥本哈根。抵达丹麦后专车接机，司导陪同，入住Scandic Spectrum Copenhagen（哥本哈根）。中文司导（专属服务）。根据酒店覆盖区域（哥本哈根、北西兰岛），优先安排阿美琳堡宫、新港、小美人鱼像等周边景点初览与入住确认。控制车程和步行强度，保留亲子休息时间。"
+      ],
+      "lastDay": [
+        "Day8",
+        "2026年10月29日；奥胡斯 - 成都。上午从Comwell Aarhus Dolce退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排奥胡斯老城、ARoS 奥胡斯艺术博物馆周边补充游览后专车送机返程。控制车程和步行强度，保留亲子休息时间。"
+      ],
+      "invitationTitle": "旅行邀请函",
+      "hotelLetter": {
+        "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Accommodation Confirmation for 何沐阳 and Travel Party",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 何沐阳 and accompanying travel party of 5 person(s).",
+          "The accommodation plan is matched from the internal hotel database for 丹麦 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+        ],
+        "table": [
+          [
+            "第1段酒店名称",
+            "Scandic Spectrum Copenhagen（丹麦 / 哥本哈根）"
+          ],
+          [
+            "第1段酒店等级",
+            "四星 / 舒适型"
+          ],
+          [
+            "第1段入住日期",
+            "2026年10月22日"
+          ],
+          [
+            "第1段退房日期",
+            "2026年10月25日"
+          ],
+          [
+            "第1段房型",
+            "高级双床房"
+          ],
+          [
+            "第1段房间数量",
+            "3间 / 3晚"
+          ],
+          [
+            "第2段酒店名称",
+            "Hotel Odeon Odense（丹麦 / 欧登塞）"
+          ],
+          [
+            "第2段酒店等级",
+            "四星 / 舒适型"
+          ],
+          [
+            "第2段入住日期",
+            "2026年10月25日"
+          ],
+          [
+            "第2段退房日期",
+            "2026年10月28日"
+          ],
+          [
+            "第2段房型",
+            "家庭房"
+          ],
+          [
+            "第2段房间数量",
+            "3间 / 3晚"
+          ],
+          [
+            "第3段酒店名称",
+            "Comwell Aarhus Dolce（丹麦 / 奥胡斯）"
+          ],
+          [
+            "第3段酒店等级",
+            "四星 / 舒适型"
+          ],
+          [
+            "第3段入住日期",
+            "2026年10月28日"
+          ],
+          [
+            "第3段退房日期",
+            "2026年10月29日"
+          ],
+          [
+            "第3段房型",
+            "高级双床房"
+          ],
+          [
+            "第3段房间数量",
+            "3间 / 1晚"
+          ]
+        ],
+        "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+      },
+      "invitationLetter": {
+        "title": "旅行邀请函",
+        "heading": "FAMILY TRAVEL INVITATION LETTER",
+        "recipient": "To: Visa Officer / Consular Section",
+        "subject": "Subject: Family Travel Support Letter for 丹麦",
+        "paragraphs": [
+          "Nordic Horizon International Travel Services confirms that 何沐阳 and family members plan to visit 丹麦 for leisure travel.",
+          "The itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources."
+        ],
+        "table": [
+          [
+            "Travel Purpose",
+            "Family leisure travel and destination experience."
+          ],
+          [
+            "Invited Party",
+            "何沐阳"
+          ],
+          [
+            "Travel Party",
+            "5 person(s)"
+          ],
+          [
+            "Travel Period",
+            "2026年10月22日 - 2026年10月29日"
+          ],
+          [
+            "Destination",
+            "丹麦"
+          ],
+          [
+            "Contact",
+            "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+          ]
+        ],
+        "closing": "This letter is issued for visa documentation support and does not constitute financial sponsorship."
+      },
+      "invitationText": "旅行邀请函\nFAMILY TRAVEL INVITATION LETTER\nSubject: Family Travel Support Letter for 丹麦\nNordic Horizon International Travel Services confirms that 何沐阳 and family members plan to visit 丹麦 for leisure travel.\nThe itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources.",
+      "fullText": "客户需求\n客户姓名: 何沐阳\n出行人数: 5人\n出发城市: 成都\n目的地输入: 丹麦哥本哈根、北西兰岛、欧登塞\n识别目的地: 丹麦\n客户类型: 亲子出游\n出行日期: 2026年10月22日 至 2026年10月29日\n人均预算: ¥36,000\n酒店等级: 舒适型\n方案档位: 舒适精选 — 专属服务，深度体验\n交通方式: 全程专属车辆\n导游服务: 中文司导（专属服务）\n特殊需求: 希望控制每日车程并保留自由活动。\n- 生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。\n\n目的地分析\n丹麦: 入境/核心城市：哥本哈根；知识库路线：哥本哈根 -> 北西兰岛 -> 欧登塞 -> 奥胡斯；本次仅从丹麦知识库读取景点。\n- 系统按国家隔离景点知识库：本次行程仅调用识别目的地（丹麦）对应的景点库，不跨国家混用景点资源。\n\n酒店匹配\n丹麦-哥本哈根: Scandic Spectrum Copenhagen（四星 / 舒适型 / ¥1,680每间夜）\n丹麦-哥本哈根房型: 高级双床房；3间；优先覆盖：哥本哈根、北西兰岛\n丹麦-欧登塞: Hotel Odeon Odense（四星 / 舒适型 / ¥1,480每间夜）\n丹麦-欧登塞房型: 家庭房；3间；优先覆盖：欧登塞\n丹麦-奥胡斯: Comwell Aarhus Dolce（四星 / 舒适型 / ¥1,580每间夜）\n丹麦-奥胡斯房型: 高级双床房；3间；优先覆盖：奥胡斯\n- 预算分级：¥36,000 / 人 -> 舒适型（舒适精选：升级服务体验）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。\n- 本次住宿晚数分配：Scandic Spectrum Copenhagen 3晚（2026年10月22日入住，2026年10月25日退房）；Hotel Odeon Odense 3晚（2026年10月25日入住，2026年10月28日退房）；Comwell Aarhus Dolce 1晚（2026年10月28日入住，2026年10月29日退房）。\n\n供应商匹配\n丹麦酒店供应商: Copenhagen Hotel Contracting；酒店协议价、房态确认、团队房控；hotel.denmark@nordichorizon.cn\n丹麦地接供应商: Denmark DMC Services Family Desk；低强度节奏、儿童座椅、家庭服务；family.denmark@nordichorizon.cn\n丹麦活动供应商: Danish Cultural Experience Desk；门票、向导和特色活动预订；activity.denmark@nordichorizon.cn\n- 供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。\n\n景点规划 / 行程安排\nDay1: 2026年10月22日；成都 - 哥本哈根。抵达丹麦后专车接机，司导陪同，入住Scandic Spectrum Copenhagen（哥本哈根）。中文司导（专属服务）。根据酒店覆盖区域（哥本哈根、北西兰岛），优先安排阿美琳堡宫、新港、小美人鱼像等周边景点初览与入住确认。控制车程和步行强度，保留亲子休息时间。\nDay2: 2026年10月23日；入住地：哥本哈根（Scandic Spectrum Copenhagen）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦哥本哈根周边行程，核心安排：新港。业务说明：彩色水岸街区，适合摄影和轻量城市参访。【特色体验：哥本哈根运河游船+新港午餐】控制车程和步行强度，保留亲子休息时间。\nDay3: 2026年10月24日；入住地：哥本哈根（Scandic Spectrum Copenhagen）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦哥本哈根周边行程，核心安排：小美人鱼像。业务说明：丹麦经典地标，适合城市观光行程。控制车程和步行强度，保留亲子休息时间。\nDay4: 2026年10月25日；入住地：欧登塞（Hotel Odeon Odense）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦欧登塞周边行程，核心安排：欧登塞运河游船。业务说明：安徒生故乡水岸轻量游览，适合亲子慢节奏。控制车程和步行强度，保留亲子休息时间。\nDay5: 2026年10月26日；入住地：欧登塞（Hotel Odeon Odense）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦欧登塞周边行程，核心安排：菲英村露天博物馆。业务说明：安徒生时代村落还原，适合亲子和文化深度体验。控制车程和步行强度，保留亲子休息时间。\nDay6: 2026年10月27日；入住地：欧登塞（Hotel Odeon Odense）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦欧登塞周边行程，核心安排：安徒生博物馆。业务说明：亲子和文化旅行核心资源。控制车程和步行强度，保留亲子休息时间。\nDay7: 2026年10月28日；入住地：奥胡斯（Comwell Aarhus Dolce）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦奥胡斯周边行程，核心安排：奥胡斯老城。业务说明：开放式城市历史博物馆，适合深度文化延展。控制车程和步行强度，保留亲子休息时间。\nDay8: 2026年10月29日；奥胡斯 - 成都。上午从Comwell Aarhus Dolce退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排奥胡斯老城、ARoS 奥胡斯艺术博物馆周边补充游览后专车送机返程。控制车程和步行强度，保留亲子休息时间。\n- 本次行程严格按 8 天生成，输出范围 Day1-Day8。\n- 景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。\n\n费用计算\n住宿费用: ¥33,180\n交通费用: ¥22,464\n活动费用: ¥20,800\n服务费: ¥7,644\n签证辅助费: ¥3,000\n方案总价（整团）: ¥87,088\n人均参考价: ¥17,418\n- 计算规则：人数 5 人，天数 8 天，酒店等级 舒适型（舒适精选），客户类型 亲子出游。\n- 费用包含：酒店含早 + 每日推荐餐厅；热门景点门票全含；全程专属车辆；中文司导（专属服务）。\n- 特色项目：含1项特色体验。\n- 报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。\n\n签证材料清单\n身份文件: 护照原件、身份证复印件、户口本复印件、婚姻状况证明。\n职业证明: 在职证明、营业执照副本或收入来源说明。\n资产证明: 近6个月银行流水、余额证明、房产或车辆等辅助资产材料。\n旅行证明: 往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。\n补充材料: 希望控制每日车程并保留自由活动。\n- 材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。\n\n酒店确认函\nHOTEL RESERVATION CONFIRMATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Accommodation Confirmation for 何沐阳 and Travel Party\nNordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 何沐阳 and accompanying travel party of 5 person(s).\nThe accommodation plan is matched from the internal hotel database for 丹麦 and selected according to hotel location, room quantity, travel purpose and itinerary sequence.\n第1段酒店名称: Scandic Spectrum Copenhagen（丹麦 / 哥本哈根）\n第1段酒店等级: 四星 / 舒适型\n第1段入住日期: 2026年10月22日\n第1段退房日期: 2026年10月25日\n第1段房型: 高级双床房\n第1段房间数量: 3间 / 3晚\n第2段酒店名称: Hotel Odeon Odense（丹麦 / 欧登塞）\n第2段酒店等级: 四星 / 舒适型\n第2段入住日期: 2026年10月25日\n第2段退房日期: 2026年10月28日\n第2段房型: 家庭房\n第2段房间数量: 3间 / 3晚\n第3段酒店名称: Comwell Aarhus Dolce（丹麦 / 奥胡斯）\n第3段酒店等级: 四星 / 舒适型\n第3段入住日期: 2026年10月28日\n第3段退房日期: 2026年10月29日\n第3段房型: 高级双床房\n第3段房间数量: 3间 / 1晚\nThis hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed.\n\n旅行邀请函\nFAMILY TRAVEL INVITATION LETTER\nTo: Visa Officer / Consular Section\nSubject: Family Travel Support Letter for 丹麦\nNordic Horizon International Travel Services confirms that 何沐阳 and family members plan to visit 丹麦 for leisure travel.\nThe itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources.\nTravel Purpose: Family leisure travel and destination experience.\nInvited Party: 何沐阳\nTravel Party: 5 person(s)\nTravel Period: 2026年10月22日 - 2026年10月29日\nDestination: 丹麦\nContact: +86 21 6188 4572 / visa.docs@nordichorizon.cn\nThis letter is issued for visa documentation support and does not constitute financial sponsorship."
+    },
+    "checks": {
+      "dayCountMatches": true,
+      "denmarkNoIcelandLeak": true,
+      "finlandNoIcelandLeak": true,
+      "icelandNoFinlandLeak": true,
+      "businessInviteOnlyWhenBusiness": true
+    },
+    "sections": [
+      {
+        "id": "overview",
+        "title": "客户需求",
+        "icon": null,
+        "rows": [
+          [
+            "客户姓名",
+            "何沐阳"
+          ],
+          [
+            "出行人数",
+            "5人"
+          ],
+          [
+            "出发城市",
+            "成都"
+          ],
+          [
+            "目的地输入",
+            "丹麦哥本哈根、北西兰岛、欧登塞"
+          ],
+          [
+            "识别目的地",
+            "丹麦"
+          ],
+          [
+            "客户类型",
+            "亲子出游"
+          ],
+          [
+            "出行日期",
+            "2026年10月22日 至 2026年10月29日"
+          ],
+          [
+            "人均预算",
+            "¥36,000"
+          ],
+          [
+            "酒店等级",
+            "舒适型"
+          ],
+          [
+            "方案档位",
+            "舒适精选 — 专属服务，深度体验"
+          ],
+          [
+            "交通方式",
+            "全程专属车辆"
+          ],
+          [
+            "导游服务",
+            "中文司导（专属服务）"
+          ],
+          [
+            "特殊需求",
+            "希望控制每日车程并保留自由活动。"
+          ]
+        ],
+        "clauses": [
+          "生成流程：客户需求 -> 目的地分析 -> 酒店位置匹配 -> 供应商匹配 -> 景点规划 -> 费用计算 -> 签证材料清单 -> 酒店确认函 -> 邀请函 -> 最终文书输出。"
+        ]
+      },
+      {
+        "id": "analysis",
+        "title": "目的地分析",
+        "icon": null,
+        "rows": [
+          [
+            "丹麦",
+            "入境/核心城市：哥本哈根；知识库路线：哥本哈根 -> 北西兰岛 -> 欧登塞 -> 奥胡斯；本次仅从丹麦知识库读取景点。"
+          ]
+        ],
+        "clauses": [
+          "系统按国家隔离景点知识库：本次行程仅调用识别目的地（丹麦）对应的景点库，不跨国家混用景点资源。"
+        ]
+      },
+      {
+        "id": "hotelMatch",
+        "title": "酒店匹配",
+        "icon": null,
+        "rows": [
+          [
+            "丹麦-哥本哈根",
+            "Scandic Spectrum Copenhagen（四星 / 舒适型 / ¥1,680每间夜）"
+          ],
+          [
+            "丹麦-哥本哈根房型",
+            "高级双床房；3间；优先覆盖：哥本哈根、北西兰岛"
+          ],
+          [
+            "丹麦-欧登塞",
+            "Hotel Odeon Odense（四星 / 舒适型 / ¥1,480每间夜）"
+          ],
+          [
+            "丹麦-欧登塞房型",
+            "家庭房；3间；优先覆盖：欧登塞"
+          ],
+          [
+            "丹麦-奥胡斯",
+            "Comwell Aarhus Dolce（四星 / 舒适型 / ¥1,580每间夜）"
+          ],
+          [
+            "丹麦-奥胡斯房型",
+            "高级双床房；3间；优先覆盖：奥胡斯"
+          ]
+        ],
+        "clauses": [
+          "预算分级：¥36,000 / 人 -> 舒适型（舒适精选：升级服务体验）。酒店来自配置化酒店数据库，按酒店所在区域影响每日景点排序。",
+          "本次住宿晚数分配：Scandic Spectrum Copenhagen 3晚（2026年10月22日入住，2026年10月25日退房）；Hotel Odeon Odense 3晚（2026年10月25日入住，2026年10月28日退房）；Comwell Aarhus Dolce 1晚（2026年10月28日入住，2026年10月29日退房）。"
+        ]
+      },
+      {
+        "id": "suppliers",
+        "title": "供应商匹配",
+        "icon": null,
+        "rows": [
+          [
+            "丹麦酒店供应商",
+            "Copenhagen Hotel Contracting；酒店协议价、房态确认、团队房控；hotel.denmark@nordichorizon.cn"
+          ],
+          [
+            "丹麦地接供应商",
+            "Denmark DMC Services Family Desk；低强度节奏、儿童座椅、家庭服务；family.denmark@nordichorizon.cn"
+          ],
+          [
+            "丹麦活动供应商",
+            "Danish Cultural Experience Desk；门票、向导和特色活动预订；activity.denmark@nordichorizon.cn"
+          ]
+        ],
+        "clauses": [
+          "供应商来自配置化供应商数据库，按目的地和客户类型选择酒店、地接、活动资源；后续可替换为供应商后台或 API。"
+        ]
+      },
+      {
+        "id": "itinerary",
+        "title": "景点规划 / 行程安排",
+        "icon": null,
+        "rows": [
+          [
+            "Day1",
+            "2026年10月22日；成都 - 哥本哈根。抵达丹麦后专车接机，司导陪同，入住Scandic Spectrum Copenhagen（哥本哈根）。中文司导（专属服务）。根据酒店覆盖区域（哥本哈根、北西兰岛），优先安排阿美琳堡宫、新港、小美人鱼像等周边景点初览与入住确认。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day2",
+            "2026年10月23日；入住地：哥本哈根（Scandic Spectrum Copenhagen）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦哥本哈根周边行程，核心安排：新港。业务说明：彩色水岸街区，适合摄影和轻量城市参访。【特色体验：哥本哈根运河游船+新港午餐】控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day3",
+            "2026年10月24日；入住地：哥本哈根（Scandic Spectrum Copenhagen）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦哥本哈根周边行程，核心安排：小美人鱼像。业务说明：丹麦经典地标，适合城市观光行程。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day4",
+            "2026年10月25日；入住地：欧登塞（Hotel Odeon Odense）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦欧登塞周边行程，核心安排：欧登塞运河游船。业务说明：安徒生故乡水岸轻量游览，适合亲子慢节奏。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day5",
+            "2026年10月26日；入住地：欧登塞（Hotel Odeon Odense）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦欧登塞周边行程，核心安排：菲英村露天博物馆。业务说明：安徒生时代村落还原，适合亲子和文化深度体验。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day6",
+            "2026年10月27日；入住地：欧登塞（Hotel Odeon Odense）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦欧登塞周边行程，核心安排：安徒生博物馆。业务说明：亲子和文化旅行核心资源。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day7",
+            "2026年10月28日；入住地：奥胡斯（Comwell Aarhus Dolce）。专属车辆随行，司导全程服务。围绕酒店覆盖区域安排丹麦奥胡斯周边行程，核心安排：奥胡斯老城。业务说明：开放式城市历史博物馆，适合深度文化延展。控制车程和步行强度，保留亲子休息时间。"
+          ],
+          [
+            "Day8",
+            "2026年10月29日；奥胡斯 - 成都。上午从Comwell Aarhus Dolce退房，核对酒店确认函、票据、费用说明和签证辅助材料；视航班时间安排奥胡斯老城、ARoS 奥胡斯艺术博物馆周边补充游览后专车送机返程。控制车程和步行强度，保留亲子休息时间。"
+          ]
+        ],
+        "clauses": [
+          "本次行程严格按 8 天生成，输出范围 Day1-Day8。",
+          "景点不做循环复用；当行程天数超过某国家优先景点数时，系统会使用该国家知识库中的延展资源或服务参访节点。"
+        ]
+      },
+      {
+        "id": "costs",
+        "title": "费用计算",
+        "icon": null,
+        "rows": [
+          [
+            "住宿费用",
+            "¥33,180"
+          ],
+          [
+            "交通费用",
+            "¥22,464"
+          ],
+          [
+            "活动费用",
+            "¥20,800"
+          ],
+          [
+            "服务费",
+            "¥7,644"
+          ],
+          [
+            "签证辅助费",
+            "¥3,000"
+          ],
+          [
+            "方案总价（整团）",
+            "¥87,088"
+          ],
+          [
+            "人均参考价",
+            "¥17,418"
+          ]
+        ],
+        "clauses": [
+          "计算规则：人数 5 人，天数 8 天，酒店等级 舒适型（舒适精选），客户类型 亲子出游。",
+          "费用包含：酒店含早 + 每日推荐餐厅；热门景点门票全含；全程专属车辆；中文司导（专属服务）。",
+          "特色项目：含1项特色体验。",
+          "报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。"
+        ]
+      },
+      {
+        "id": "visa",
+        "title": "签证材料清单",
+        "icon": null,
+        "rows": [
+          [
+            "身份文件",
+            "护照原件、身份证复印件、户口本复印件、婚姻状况证明。"
+          ],
+          [
+            "职业证明",
+            "在职证明、营业执照副本或收入来源说明。"
+          ],
+          [
+            "资产证明",
+            "近6个月银行流水、余额证明、房产或车辆等辅助资产材料。"
+          ],
+          [
+            "旅行证明",
+            "往返机票预订单、酒店确认函、境外保险单、英文行程单、费用说明及对应邀请/说明函。"
+          ],
+          [
+            "补充材料",
+            "希望控制每日车程并保留自由活动。"
+          ]
+        ],
+        "clauses": [
+          "材料递交前需核对姓名拼写、护照号码、旅行日期、酒店日期和保险覆盖日期。"
+        ]
+      },
+      {
+        "id": "hotel",
+        "title": "酒店确认函",
+        "icon": null,
+        "letter": {
+          "heading": "HOTEL RESERVATION CONFIRMATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Accommodation Confirmation for 何沐阳 and Travel Party",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that accommodation arrangements are being coordinated for 何沐阳 and accompanying travel party of 5 person(s).",
+            "The accommodation plan is matched from the internal hotel database for 丹麦 and selected according to hotel location, room quantity, travel purpose and itinerary sequence."
+          ],
+          "table": [
+            [
+              "第1段酒店名称",
+              "Scandic Spectrum Copenhagen（丹麦 / 哥本哈根）"
+            ],
+            [
+              "第1段酒店等级",
+              "四星 / 舒适型"
+            ],
+            [
+              "第1段入住日期",
+              "2026年10月22日"
+            ],
+            [
+              "第1段退房日期",
+              "2026年10月25日"
+            ],
+            [
+              "第1段房型",
+              "高级双床房"
+            ],
+            [
+              "第1段房间数量",
+              "3间 / 3晚"
+            ],
+            [
+              "第2段酒店名称",
+              "Hotel Odeon Odense（丹麦 / 欧登塞）"
+            ],
+            [
+              "第2段酒店等级",
+              "四星 / 舒适型"
+            ],
+            [
+              "第2段入住日期",
+              "2026年10月25日"
+            ],
+            [
+              "第2段退房日期",
+              "2026年10月28日"
+            ],
+            [
+              "第2段房型",
+              "家庭房"
+            ],
+            [
+              "第2段房间数量",
+              "3间 / 3晚"
+            ],
+            [
+              "第3段酒店名称",
+              "Comwell Aarhus Dolce（丹麦 / 奥胡斯）"
+            ],
+            [
+              "第3段酒店等级",
+              "四星 / 舒适型"
+            ],
+            [
+              "第3段入住日期",
+              "2026年10月28日"
+            ],
+            [
+              "第3段退房日期",
+              "2026年10月29日"
+            ],
+            [
+              "第3段房型",
+              "高级双床房"
+            ],
+            [
+              "第3段房间数量",
+              "3间 / 1晚"
+            ]
+          ],
+          "closing": "This hotel confirmation is issued for visa documentation and supplier coordination. Final booking numbers shall be issued after room availability and payment terms are confirmed."
+        }
+      },
+      {
+        "id": "invitation",
+        "title": "旅行邀请函",
+        "icon": null,
+        "letter": {
+          "title": "旅行邀请函",
+          "heading": "FAMILY TRAVEL INVITATION LETTER",
+          "recipient": "To: Visa Officer / Consular Section",
+          "subject": "Subject: Family Travel Support Letter for 丹麦",
+          "paragraphs": [
+            "Nordic Horizon International Travel Services confirms that 何沐阳 and family members plan to visit 丹麦 for leisure travel.",
+            "The itinerary is designed with reduced walking intensity, suitable hotel room allocation and family-friendly destination resources."
+          ],
+          "table": [
+            [
+              "Travel Purpose",
+              "Family leisure travel and destination experience."
+            ],
+            [
+              "Invited Party",
+              "何沐阳"
+            ],
+            [
+              "Travel Party",
+              "5 person(s)"
+            ],
+            [
+              "Travel Period",
+              "2026年10月22日 - 2026年10月29日"
+            ],
+            [
+              "Destination",
+              "丹麦"
+            ],
+            [
+              "Contact",
+              "+86 21 6188 4572 / visa.docs@nordichorizon.cn"
+            ]
+          ],
+          "closing": "This letter is issued for visa documentation support and does not constitute financial sponsorship."
+        }
+      }
+    ]
+  }
+]
