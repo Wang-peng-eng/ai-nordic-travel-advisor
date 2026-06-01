@@ -818,30 +818,30 @@ function App() {
   return (
     <main className="min-h-screen bg-[#eef3f4]">
       <header className="border-b border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-6 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:gap-4 sm:px-6 sm:py-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>
-            <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-fjord">
-              <Sparkles size={16} />
+            <div className="mb-1.5 flex items-center gap-2 text-xs font-semibold text-fjord sm:text-sm">
+              <Sparkles size={14} className="sm:w-4 sm:h-4" />
               AI旅游方案与签证文书自动化平台
             </div>
-            <h1 className="text-2xl font-semibold tracking-normal text-ink sm:text-3xl">
+            <h1 className="text-xl font-semibold tracking-normal text-ink sm:text-2xl lg:text-3xl">
               AI北欧定制游顾问
             </h1>
-            <p className="mt-2 text-sm text-slate-600">
+            <p className="mt-1 text-xs text-slate-600 sm:mt-2 sm:text-sm">
               根据目的地、酒店位置、供应商资源、客户类型和预算自动生成旅游方案与签证文书
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-2 text-center text-xs text-slate-600 sm:min-w-80">
-            <div className="border border-slate-200 bg-ledger px-3 py-3">
-              <strong className="block text-lg text-ink">KB</strong>
+          <div className="grid grid-cols-3 gap-1.5 text-center text-[10px] text-slate-600 sm:gap-2 sm:text-xs sm:min-w-80">
+            <div className="border border-slate-200 bg-ledger px-2 py-2 sm:px-3 sm:py-3">
+              <strong className="block text-base text-ink sm:text-lg">KB</strong>
               目的地库
             </div>
-            <div className="border border-slate-200 bg-ledger px-3 py-3">
-              <strong className="block text-lg text-ink">Hotel</strong>
+            <div className="border border-slate-200 bg-ledger px-2 py-2 sm:px-3 sm:py-3">
+              <strong className="block text-base text-ink sm:text-lg">Hotel</strong>
               酒店匹配
             </div>
-            <div className="border border-slate-200 bg-ledger px-3 py-3">
-              <strong className="block text-lg text-ink">Plan</strong>
+            <div className="border border-slate-200 bg-ledger px-2 py-2 sm:px-3 sm:py-3">
+              <strong className="block text-base text-ink sm:text-lg">Plan</strong>
               方案规划
             </div>
           </div>
@@ -860,9 +860,9 @@ function App() {
 
           <form onSubmit={handleGenerate} className="space-y-4 p-5">
             {fieldGroups.map((group, index) => (
-              <div key={index} className={group.length > 1 ? "grid grid-cols-2 gap-3" : "grid gap-3"}>
+              <div key={index} className={group.length > 1 ? "grid md:grid-cols-2 gap-3" : "grid gap-3"}>
                 {group.map((field) => (
-                  <label key={field.name} className={field.wide ? "col-span-2 block" : "block"}>
+                  <label key={field.name} className={field.wide ? "md:col-span-2 block" : "block"}>
                     <span className="mb-1.5 block text-xs font-semibold text-slate-700">{field.label}</span>
                     {field.type === "textarea" ? (
                       <textarea
@@ -1077,6 +1077,7 @@ function DocumentSection({ section }) {
           <LetterBody letter={section.letter} />
         ) : (
           <div className="p-4">
+            <div className="overflow-x-auto">
             <dl className="grid gap-0 overflow-hidden border border-slate-200 md:grid-cols-2">
               {section.rows.map(([label, value]) => (
                 <div
@@ -1088,6 +1089,7 @@ function DocumentSection({ section }) {
                 </div>
               ))}
             </dl>
+            </div>
             {section.clauses?.length ? (
               <ol className="mt-4 space-y-2 border-l-2 border-fjord/30 pl-4 text-sm leading-6 text-slate-700">
                 {section.clauses.map((clause) => (
@@ -1117,6 +1119,7 @@ function LetterBody({ letter }) {
         ))}
       </div>
 
+      <div className="overflow-x-auto">
       <dl className="overflow-hidden border border-slate-200">
         {letter.table.map(([label, value]) => (
           <div key={label} className="grid grid-cols-[150px_minmax(0,1fr)] border-b border-slate-200 last:border-b-0">
@@ -1125,6 +1128,7 @@ function LetterBody({ letter }) {
           </div>
         ))}
       </dl>
+      </div>
 
       <p className="mt-4">{letter.closing}</p>
       <div className="mt-6 grid gap-1 border-t border-slate-300 pt-4 text-slate-700 sm:grid-cols-2">
