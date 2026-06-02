@@ -326,7 +326,10 @@ function buildDailyRows(form, dailyPlans, customerType, hotelTier, tierProfile =
       const midDays = totalDays - 2;
       const slotsPerSpecial = midDays > 0 ? Math.max(1, Math.floor(midDays / Math.max(countrySpecials.length, 1))) : 1;
       if ((day - 2) % slotsPerSpecial === 0 && specialIndex < countrySpecials.length) {
-        specialText = `【特色体验：${countrySpecials[specialIndex]}】`;
+        const act = countrySpecials[specialIndex];
+        const actName = (act && typeof act === "object") ? act.name : act;
+        const actPrice = (act && typeof act === "object" && act.price) ? "（¥" + act.price.toLocaleString() + "）" : "";
+        specialText = `【特色体验：${actName}${actPrice}】`;
         specialIndex++;
       }
     }
@@ -376,13 +379,35 @@ function calculateQuote({ travelers, days, hotelTier, customerType, dailyPlans }
   const typeMultiplier = pricingRules.customerTypeMultiplier[customerType.key] || 1;
   const tierMultiplier = pricingRules.hotelTierMultiplier[hotelTier] || 1;
   const transportCost = Math.round((pricingRules.transportPerDay[hotelTier] || 2600) * Number(days || 1) * typeMultiplier);
-  const activityCost = Math.round((pricingRules.activityPerPersonDay[customerType.key] || 620) * travelers * Number(days || 1) * tierMultiplier);
-  const subtotal = accommodationCost + transportCost + activityCost;
+
+  // Compute activity cost from actual premium-experience prices
+  let activityCost = 0;
+  const activityCountries = [...new Set(dailyPlans.map(p => p.country.key))];
+  activityCountries.forEach(ck => {
+    const premiumPool = countryPremiumExperiences[ck];
+    const pool = premiumPool?.[hotelTier] || tierSpecialActivities[ck]?.[hotelTier] || [];
+    if (hotelTier === "高端型" && pool.length > 0) {
+      const count = Math.min(2 + Math.floor(Math.random() * 2), pool.length);
+      const selected = [...pool].sort(() => Math.random() - 0.5).slice(0, count);
+      selected.forEach(a => { activityCost += (typeof a === "object" ? (a.price || 0) : 0); });
+    } else if (hotelTier === "舒适型" && pool.length > 0) {
+      const selected = [...pool].sort(() => Math.random() - 0.5).slice(0, 1);
+      selected.forEach(a => { activityCost += (typeof a === "object" ? (a.price || 0) : 0); });
+    }
+  });
+  activityCost = Math.round(activityCost * travelers);
+
+  // Add inland flight and airport VIP for premium tier
+  const inlandFlight = Math.round((pricingRules.inlandFlightPerPerson?.[hotelTier] || 0) * travelers);
+  const airportVIP = Math.round((pricingRules.airportVIPPerPerson?.[hotelTier] || 0) * travelers);
+  const premiumAddons = inlandFlight + airportVIP;
+
+  const subtotal = accommodationCost + transportCost + activityCost + premiumAddons;
   const serviceFee = Math.round(subtotal * (pricingRules.serviceFeeRate[hotelTier] || 0.1));
   const visaAssistFee = travelers * pricingRules.visaAssistPerPerson;
-  const total = accommodationCost + transportCost + activityCost + serviceFee + visaAssistFee;
+  const total = accommodationCost + transportCost + activityCost + premiumAddons + serviceFee + visaAssistFee;
 
-  return { accommodationCost, transportCost, activityCost, serviceFee, visaAssistFee, total, roomNightsByHotel: [...roomNightsByHotel.values()] };
+  return { accommodationCost, transportCost, activityCost, premiumAddons, inlandFlight, airportVIP, serviceFee, visaAssistFee, total, roomNightsByHotel: [...roomNightsByHotel.values()] };
 }
 
 function buildHotelStays(form, dailyPlans) {
@@ -626,6 +651,8 @@ function buildDocuments(form, forcedTier = null) {
         ["住宿费用", currency(quote.accommodationCost)],
         ["交通费用", currency(quote.transportCost)],
         ["活动费用", currency(quote.activityCost)],
+        ...(quote.inlandFlight > 0 ? [["内陆飞行接驳", currency(quote.inlandFlight)]] : []),
+        ...(quote.airportVIP > 0 ? [["机场VIP通关+专车", currency(quote.airportVIP)]] : []),
         ["服务费", currency(quote.serviceFee)],
         ["签证辅助费", currency(quote.visaAssistFee)],
         ["方案总价（整团）", currency(quote.total)],
@@ -634,8 +661,9 @@ function buildDocuments(form, forcedTier = null) {
       clauses: [
         `计算规则：人数 ${travelers} 人，天数 ${days} 天，酒店等级 ${hotelTier}（${tierProfile.label}），客户类型 ${customerType.label}。`,
         `费用包含：${tierProfile.mealsIncluded}；${tierProfile.ticketCoverage}；${tierProfile.transportMode}；${tierProfile.guideType}。`,
-        `特色项目：${tierProfile.specialActivitiesNote}。`,
-        "报价根据配置化单价和系数计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。",
+        ...(hotelTier === "高端型" ? ["高端型专属：内陆飞机/直升机接驳 + 机场VIP通关+专车接送。"] : []),
+        "活动费用根据目的地特色项目库按实际选择计价，非按天估算。",
+        "报价根据配置化单价计算，最终金额以酒店供应商确认、车辆调度、活动库存和汇率为准。",
       ],
     },
     {
@@ -738,6 +766,11 @@ function App() {
   const [threePlans, setThreePlans] = useState(() => buildThreeTierPlans(initialForm));
   const [selectedTier, setSelectedTier] = useState("舒适型");
   const [copied, setCopied] = useState(false);
+  const [smartFillText, setSmartFillText] = useState("");
+  const [smartFillLoading, setSmartFillLoading] = useState(false);
+  const [smartFillStatus, setSmartFillStatus] = useState("");
+  const [prevForm, setPrevForm] = useState(null);
+  const [highlightedFields, setHighlightedFields] = useState([]);
 
   const selectedPlan = threePlans.find((p) => p.tier === selectedTier) || threePlans[1];
   const documentData = { metadata: selectedPlan.metadata, sections: selectedPlan.sections };
@@ -759,6 +792,103 @@ function App() {
 
   function updateField(name, value) {
     setForm((current) => ({ ...current, [name]: value }));
+  }
+
+  function handleUndo() {
+    if (!prevForm) return;
+    setForm(prevForm);
+    setThreePlans(buildThreeTierPlans(prevForm));
+    setPrevForm(null);
+    setSmartFillStatus("已撤销，恢复填写前内容");
+  }
+
+  async function handleSmartFill() {
+    const text = smartFillText.trim();
+    if (!text) return;
+
+    setSmartFillLoading(true);
+    setSmartFillStatus("正在识别...");
+    setPrevForm({ ...form });
+
+    const prompt = `你是一个旅游信息提取助手。从用户描述中提取结构化数据，返回纯JSON。
+
+输入：${text}
+
+返回格式（只返回JSON，不要其他内容）：
+{
+  "customerName": "",
+  "travelers": "",
+  "departureCity": "",
+  "departureDate": "",
+  "destinations": "",
+  "days": "",
+  "budget": "",
+  "preferences": "",
+  "specialNeeds": ""
+}
+
+规则：
+- 只提取明确提到的字段，未提到的留空字符串""
+- 日期统一转YYYY-MM-DD格式，如"6月20日"→"2026-06-20"
+- 人数/天数/预算只提取数字，不含单位
+- 目的地要包含国家和城市
+- 偏好从描述推断：摄影/亲子/蜜月/自然风光/极光/商务考察等`;
+
+    try {
+      const res = await fetch("https://api.deepseek.com/v1/chat/completions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: "Bearer sk-202d273759db40608d5e645602024485" },
+        body: JSON.stringify({
+          model: "deepseek-chat",
+          messages: [{ role: "user", content: prompt }],
+          temperature: 0,
+          max_tokens: 500,
+        }),
+      });
+
+      if (!res.ok) throw new Error(handleApiError(res.status));
+
+      const data = await res.json();
+      const content = data.choices?.[0]?.message?.content || "";
+      const jsonMatch = content.match(/\{[\s\S]*\}/);
+      if (!jsonMatch) throw new Error("AI 返回的内容无法解析，请换一种描述方式试试");
+
+      const parsed = JSON.parse(jsonMatch[0]);
+      const fieldMap = {
+        customerName: "customerName", travelers: "travelers", departureCity: "departureCity",
+        departureDate: "departureDate", destinations: "destinations",
+        days: "days", budget: "budget", preferences: "preferences", specialNeeds: "specialNeeds",
+      };
+
+      // 不清空表单，只覆盖 AI 识别到的字段（支持补填）
+      const next = { ...form };
+      const filled = [];
+      for (const [key, formKey] of Object.entries(fieldMap)) {
+        if (parsed[key] && String(parsed[key]).trim()) {
+          next[formKey] = String(parsed[key]).trim();
+          filled.push(formKey);
+        }
+      }
+      setForm(next);
+      setThreePlans(buildThreeTierPlans(next));
+      setSelectedTier("舒适型");
+      setSmartFillText("");
+      setHighlightedFields(filled);
+      window.setTimeout(() => setHighlightedFields([]), 2000);
+
+      setSmartFillStatus(`已识别 ${filled.length} 个字段，方案已自动生成`);
+    } catch (err) {
+      setSmartFillStatus(`识别失败：${err.message}`);
+    } finally {
+      setSmartFillLoading(false);
+    }
+  }
+
+  function handleApiError(status) {
+    if (status === 401) return "API Key 无效，请联系开发者";
+    if (status === 429) return "请求太频繁，请稍后再试";
+    if (status >= 500) return "AI 服务暂时不可用，请稍后重试";
+    return `请求失败（${status}），请检查网络连接`;
   }
 
   function handleGenerate(event) {
@@ -858,7 +988,40 @@ function App() {
             <p className="mt-1 text-xs text-slate-500">输入客户需求后，系统按真实旅行社内部流程生成方案、报价和签证文书。</p>
           </div>
 
-          <form onSubmit={handleGenerate} className="space-y-4 p-5">
+          <form onSubmit={handleGenerate} className="space-y-4 px-5 pb-5">
+            <div className="rounded-lg border border-fjord/20 bg-fjord/[0.03] p-4">
+              <p className="mb-2 text-xs font-semibold text-fjord">智能填写</p>
+              <p className="mb-2 text-xs text-slate-500">粘贴一段客户描述，AI 自动识别并填入表单。例如：<em>"我叫王朋，2个人从长春出发，6月20日去冰岛，玩7天，人均预算8000"</em></p>
+              <textarea
+                value={smartFillText}
+                onChange={(e) => setSmartFillText(e.target.value)}
+                rows={3}
+                placeholder="粘贴客户原话..."
+                className="w-full resize-none border border-slate-300 bg-white px-3 py-2 text-sm text-ink outline-none transition focus:border-fjord focus:ring-2 focus:ring-fjord/15 placeholder:text-slate-400"
+              />
+              <div className="mt-2 flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={handleSmartFill}
+                  disabled={smartFillLoading || !smartFillText.trim()}
+                  className="inline-flex items-center gap-1.5 border border-fjord bg-fjord px-3 py-1.5 text-xs font-semibold text-white transition hover:bg-[#184d5d] disabled:opacity-40 disabled:cursor-not-allowed"
+                >
+                  <Sparkles size={14} />
+                  {smartFillLoading ? "识别中..." : "智能识别填写"}
+                </button>
+                {prevForm && (
+                  <button type="button" onClick={handleUndo} className="text-xs text-slate-500 underline hover:text-fjord">
+                    撤销
+                  </button>
+                )}
+                {smartFillStatus && (
+                  <span className={`text-xs ${smartFillStatus.startsWith("已识别") || smartFillStatus.startsWith("已撤销") ? "text-green-700" : smartFillStatus.startsWith("识别失败") ? "text-red-600" : "text-slate-500"}`}>
+                    {smartFillStatus}
+                  </span>
+                )}
+              </div>
+            </div>
+
             {fieldGroups.map((group, index) => (
               <div key={index} className={group.length > 1 ? "grid md:grid-cols-2 gap-3" : "grid gap-3"}>
                 {group.map((field) => (
@@ -867,16 +1030,16 @@ function App() {
                     {field.type === "textarea" ? (
                       <textarea
                         value={form[field.name]}
-                        onChange={(event) => updateField(field.name, event.target.value)}
+                        onChange={(event) => { updateField(field.name, event.target.value); setPrevForm(null); setHighlightedFields([]); }}
                         placeholder={field.placeholder || ""}
                         rows={3}
-                        className="w-full resize-none border border-slate-300 bg-white px-3 py-2 text-sm text-ink outline-none transition focus:border-fjord focus:ring-2 focus:ring-fjord/15 placeholder:text-slate-400"
+                        className={`w-full resize-none border bg-white px-3 py-2 text-sm text-ink outline-none transition placeholder:text-slate-400 focus:border-fjord focus:ring-2 focus:ring-fjord/15 ${highlightedFields.includes(field.name) ? "border-fjord ring-2 ring-fjord/30 animate-pulse" : "border-slate-300"}`}
                       />
                     ) : field.type === "select" ? (
                       <select
                         value={form[field.name]}
                         onChange={(event) => updateField(field.name, event.target.value)}
-                        className="w-full border border-slate-300 bg-white px-3 py-2 text-sm text-ink outline-none transition focus:border-fjord focus:ring-2 focus:ring-fjord/15"
+                        className={`w-full border bg-white px-3 py-2 text-sm text-ink outline-none transition focus:border-fjord focus:ring-2 focus:ring-fjord/15 ${highlightedFields.includes(field.name) ? "border-fjord ring-2 ring-fjord/30" : "border-slate-300"}`}
                       >
                         {field.options.map((option) => (
                           <option key={option}>{option}</option>
@@ -886,9 +1049,9 @@ function App() {
                       <input
                         type={field.type}
                         value={form[field.name]}
-                        onChange={(event) => updateField(field.name, event.target.value)}
+                        onChange={(event) => { updateField(field.name, event.target.value); setPrevForm(null); setHighlightedFields([]); }}
                         placeholder={field.placeholder || ""}
-                        className="w-full border border-slate-300 bg-white px-3 py-2 text-sm text-ink outline-none transition focus:border-fjord focus:ring-2 focus:ring-fjord/15 placeholder:text-slate-400"
+                        className={`w-full border bg-white px-3 py-2 text-sm text-ink outline-none transition placeholder:text-slate-400 focus:border-fjord focus:ring-2 focus:ring-fjord/15 ${highlightedFields.includes(field.name) ? "border-fjord ring-2 ring-fjord/30 animate-pulse" : "border-slate-300"}`}
                       />
                     )}
                   </label>
